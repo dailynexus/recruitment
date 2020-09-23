@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: "Daily Nexus Recruitment",
+    description: "Learn more about the sections of the Daily Nexus and how to join.",
+    author: "web@dailynexus.com",
+    siteUrl: "https://dailynexus.com/interactives/recruitment"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +16,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-linaria`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
