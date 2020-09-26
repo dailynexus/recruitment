@@ -1,3 +1,7 @@
+---
+title: "Opinion"
+icon: "../../images/section-logos/opinion.jpg"
+---
 **The opinion section is looking for writers for the 2020-21 school year.**
 
 Love hot takes and debates? Then the opinion section is the perfect place for you!

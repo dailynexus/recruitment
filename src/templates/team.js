@@ -11,6 +11,9 @@ export const pageQuery = graphql`
 query TeamQuery($name: String!) {
   file(name: {eq: $name}, sourceInstanceName: {eq: "teams"}) {
     childMarkdownRemark {
+      frontmatter {
+        title
+      }
       html
     }
     name

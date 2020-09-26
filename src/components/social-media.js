@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 import ContentContainer from "../components/content-container";
+import Header from "../components/header";
 
 const Wrapper = styled.div`
   display: flex;
@@ -13,12 +14,6 @@ const Wrapper = styled.div`
   padding: 32px 0;
   color: white;
   background-color: var(--color-primary);
-`;
-
-const Header = styled.h1`
-  font-size: 3rem;
-  margin-top: 0;
-  margin-bottom: 70px;
 `;
 
 const SocialMediaContainer = styled.div`
