@@ -29,7 +29,7 @@ const Text = styled.div`
 
 function Button({ to, text }) {
   return (
-    <Link href={to}>
+    <Link target="_blank" href={to}>
       <Wrapper>
         <Text>{text}</Text>
       </Wrapper>

@@ -1,5 +1,5 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import { styled } from "linaria/react";
 import Img from "gatsby-image";
 
@@ -29,9 +29,11 @@ function Team({ node }) {
   let imageData = frontmatter.icon.childImageSharp.fixed;
 
   return (
-    <TeamTile>
-      <Img fixed={imageData} alt={frontmatter.title} />
-    </TeamTile>
+    <Link to={node.name}>
+      <TeamTile>
+        <Img fixed={imageData} alt={frontmatter.title} />
+      </TeamTile>
+    </Link>
   );
 }
 

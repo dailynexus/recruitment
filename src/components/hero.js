@@ -68,7 +68,7 @@ function Hero() {
         </RecruitmentLogo>
         <SplitContainer>
           <HeroText dangerouslySetInnerHTML={{__html: data.heroText.childMarkdownRemark.html}} />
-          <Button to="/" text="Orientation Signup" />
+          <Button to="https://forms.gle/XcL7zU9Q4ssxfCsi8" text="Orientation Signup" />
         </SplitContainer>
       </ContentContainer>
     </Wrapper>

@@ -1,6 +1,7 @@
 ---
 title: "Opinion"
 icon: "../../images/section-logos/opinion.jpg"
+image: "../../images/section-images/opinion.jpg"
 ---
 **The opinion section is looking for writers for the 2020-21 school year.**
 
