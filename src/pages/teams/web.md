@@ -1,4 +1,5 @@
 ---
+priority: 13
 title: "Web"
 icon: "../../images/section-logos/web.png"
 image: "../../images/section-images/web.jpg"

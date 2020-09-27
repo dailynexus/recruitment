@@ -1,4 +1,5 @@
 ---
+priority: 5
 title: "Data"
 icon: "../../images/section-logos/labyrinth.png"
 image: "../../images/section-images/data.jpg"

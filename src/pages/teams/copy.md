@@ -1,4 +1,5 @@
 ---
+priority: 14
 title: "Copy"
 icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/copy.jpg"

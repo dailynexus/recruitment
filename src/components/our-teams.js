@@ -22,6 +22,11 @@ const TeamTile = styled.div`
   border-radius: 20px;
 `;
 
+const TeamsWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
 
 function Team({ node }) {
   let { childMarkdownRemark } = node;
@@ -45,6 +50,7 @@ function OurTeams() {
           name
           childMarkdownRemark {
             frontmatter {
+              priority
               title
               icon {
                 childImageSharp {
@@ -65,12 +71,19 @@ function OurTeams() {
       return false; // Filter out nodes with no title (editorial/extra content)
     }
     return true;
+  }).sort((a, b) => {
+    console.log("Sorting nodes", a.childMarkdownRemark.frontmatter.title, b.childMarkdownRemark.frontmatter.title);
+    console.log(a, b);
+    console.log("Difference", (a.childMarkdownRemark.frontmatter.priority - b.childMarkdownRemark.frontmatter.priority));
+    return (a.childMarkdownRemark.frontmatter.priority - b.childMarkdownRemark.frontmatter.priority);
   }).map((node) => <Team key={node.name} node={node} />);
 
   return (
     <Wrapper>
       <Header>Our Teams</Header>
-      {teams}
+      <TeamsWrapper>
+        {teams}
+      </TeamsWrapper>
     </Wrapper>
   );
 }

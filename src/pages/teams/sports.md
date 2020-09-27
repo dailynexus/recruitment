@@ -1,4 +1,5 @@
 ---
+priority: 1
 title: "Sports"
 icon: "../../images/section-logos/sports.png"
 image: "../../images/section-images/sports.jpg"

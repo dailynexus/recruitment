@@ -1,4 +1,5 @@
 ---
+priority: 2
 title: "News"
 icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/news.jpg"

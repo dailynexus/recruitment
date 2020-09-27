@@ -1,4 +1,5 @@
 ---
+priority: 6
 title: "Nexustentialism"
 icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/news.jpg"

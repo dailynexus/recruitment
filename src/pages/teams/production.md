@@ -1,4 +1,5 @@
 ---
+priority: 10
 title: "Production"
 icon: "../../images/section-logos/production.png"
 image: "../../images/section-images/production.jpg"

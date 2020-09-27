@@ -1,4 +1,5 @@
 ---
+priority: 9
 title: "Video"
 icon: "../../images/section-logos/video.png"
 image: "../../images/section-images/video.jpg"

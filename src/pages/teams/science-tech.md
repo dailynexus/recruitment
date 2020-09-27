@@ -1,4 +1,5 @@
 ---
+priority: 4
 title: "Science & Tech"
 icon: "../../images/section-logos/science.png"
 image: "../../images/section-images/science.jpg"

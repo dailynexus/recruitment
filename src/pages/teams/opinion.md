@@ -1,4 +1,5 @@
 ---
+priority: 0
 title: "Opinion"
 icon: "../../images/section-logos/opinion.jpg"
 image: "../../images/section-images/opinion.jpg"

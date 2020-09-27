@@ -1,4 +1,5 @@
 ---
+priority: 12
 title: "Social"
 icon: "../../images/section-logos/social.png"
 image: "../../images/section-logos/social.jpg"

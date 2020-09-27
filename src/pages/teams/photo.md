@@ -1,4 +1,5 @@
 ---
+priority: 8
 title: "Photo"
 icon: "../../images/section-logos/photo.png"
 image: "../../images/section-images/photo.jpg"

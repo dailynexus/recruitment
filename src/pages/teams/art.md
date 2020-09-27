@@ -1,4 +1,5 @@
 ---
+priority: 11
 title: "Art"
 icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/art.png"
