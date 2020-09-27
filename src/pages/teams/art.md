@@ -1,6 +1,6 @@
 ---
 title: "Art"
-icon: ""
+icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/art.png"
 contact: "art@dailynexus.com"
 ---

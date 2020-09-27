@@ -13,6 +13,11 @@ exports.createPages = async({ actions, graphql, reporter }) => {
       allFile(filter: {sourceInstanceName: {eq: "teams"}}) {
         nodes {
           name
+          childMarkdownRemark {
+            frontmatter {
+              title
+            }
+          }
         }
       }
     }
@@ -24,6 +29,11 @@ exports.createPages = async({ actions, graphql, reporter }) => {
   }
 
   result.data.allFile.nodes.forEach((node) => {
+    // Filter out nodes with no title (editorial/extra content)
+    if (node.childMarkdownRemark.frontmatter.title == "") {
+      return;
+    }
+
     createPage({
       path: node.name,
       component: teamTemplate,

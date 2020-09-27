@@ -60,7 +60,12 @@ function OurTeams() {
     }
   `);
 
-  const teams = data.allFile.nodes.map((node) => <Team key={node.name} node={node} />);
+  const teams = data.allFile.nodes.filter((node) => {
+    if (node.childMarkdownRemark.frontmatter.title == "") {
+      return false; // Filter out nodes with no title (editorial/extra content)
+    }
+    return true;
+  }).map((node) => <Team key={node.name} node={node} />);
 
   return (
     <Wrapper>

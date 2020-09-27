@@ -1,6 +1,6 @@
 ---
 title: "Copy"
-icon: ""
+icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/copy.jpg"
 contact: "copy@dailynexus.com"
 ---
