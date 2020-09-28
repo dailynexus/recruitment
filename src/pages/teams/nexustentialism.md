@@ -1,8 +1,8 @@
 ---
 priority: 6
 title: "Nexustentialism"
-icon: "../../images/section-logos/news.png"
-image: "../../images/section-images/news.jpg"
+icon: "../../images/section-logos/stench.png"
+image: "../../images/section-images/nexustentialism.jpg"
 contact: "nexustentialism@dailynexus.com"
 ---
 **Nexustentialism is looking for writers for the 2020-21 school year.**

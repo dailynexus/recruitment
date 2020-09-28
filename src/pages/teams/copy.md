@@ -1,7 +1,7 @@
 ---
 priority: 14
 title: "Copy"
-icon: "../../images/section-logos/news.png"
+icon: "../../images/section-logos/copy.png"
 image: "../../images/section-images/copy.jpg"
 contact: "copy@dailynexus.com"
 ---
