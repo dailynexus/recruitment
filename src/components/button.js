@@ -1,4 +1,5 @@
 import React from "react";
+import { css } from "linaria";
 import { styled } from "linaria/react";
 
 const Link = styled.a`
@@ -27,14 +28,25 @@ const Text = styled.div`
   color: white;
 `;
 
-function Button({ to, text }) {
+const textSmall = css`
+  font-size: 2rem;
+  line-height: 3rem;
+`;
+
+function Button({ to, text, size }) {
   return (
     <Link target="_blank" href={to}>
       <Wrapper>
-        <Text>{text}</Text>
+        <Text className={(size === "small") ? textSmall: ""}>
+          {text}
+        </Text>
       </Wrapper>
     </Link>
   );
+}
+
+Button.defaultProps = {
+  size: "large"
 }
 
 export default Button;

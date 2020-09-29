@@ -1,25 +1,34 @@
 import React from "react"
+import useScrollPosition from '@react-hook/window-scroll';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Header from "../components/header";
+import Menu from "../components/menu";
 import Hero from "../components/hero"
 import AboutUs from "../components/about-us"
 import SocialMedia from "../components/social-media"
 import OurTeams from "../components/our-teams"
 
-const IndexPage = () => (
-  <>
-    <Layout>
-      <SEO title="Home" />
-      <Header />
-      <Hero />
-      <AboutUs />
-      <SocialMedia />
-      <OurTeams />
-    </Layout>
-  </>
-)
+const IndexPage = () => {
+  const scrollY = useScrollPosition(30);
+  const scrollThreshold = 216; // Height of top header
+  let sticking = (scrollY > scrollThreshold);
 
-export default IndexPage
+  return (
+    <>
+      <Layout sticking={sticking}>
+        <SEO title="Home" />
+        <Header />
+        <Menu sticking={sticking} />
+        <Hero />
+        <AboutUs />
+        <SocialMedia />
+        <OurTeams />
+      </Layout>
+    </>
+  );
+}
+
+export default IndexPage;

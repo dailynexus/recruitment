@@ -4,6 +4,7 @@ import { css } from "linaria";
 import { styled } from "linaria/react";
 import Img from "gatsby-image";
 
+import Anchor from "./styled/anchor";
 import SectionHeader from "./styled/section-header";
 
 const Wrapper = styled.div`
@@ -103,7 +104,8 @@ function OurTeams() {
   }).map((node) => <Team key={node.name} node={node} />);
 
   return (
-    <Wrapper id="teams">
+    <Wrapper>
+      <Anchor id="teams" />
       <SectionHeader>Our Teams</SectionHeader>
       <TeamsWrapper>
         {teams}

@@ -4,6 +4,7 @@ import { styled } from "linaria/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
+import Anchor from "../components/styled/anchor";
 import ContentContainer from "../components/content-container";
 import SectionHeader from "./styled/section-header";
 
@@ -61,7 +62,8 @@ function SocialMediaIndividual({ icon, to, children }) {
 
 function SocialMedia() {
   return (
-    <SocialMediaWrapper id="social">
+    <SocialMediaWrapper>
+      <Anchor id="social" />
       <ContentContainer alignItems="center">
         <SectionHeader>Social Media</SectionHeader>
         <SocialMediaContainer>

@@ -1,7 +1,7 @@
 ---
 priority: 0
 title: "Opinion"
-icon: "../../images/section-logos/opinion.jpg"
+icon: "../../images/section-logos/opinion.png"
 image: "../../images/section-images/opinion.jpg"
 contact: "opinion@dailynexus.com"
 featured:

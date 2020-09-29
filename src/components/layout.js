@@ -33,15 +33,27 @@ const themePrimary = css`
   }
 `;
 
-function Layout({ children }) {
+// Push content down by height+bottom margin of menu once menu is removed from normal flow
+// to avoid jump in position
+const stickyMenu = css`
+  padding-top: 103px;
+`;
+
+function Layout({ sticking, children }) {
+  let classes = [themePrimary];
+  if (sticking) {
+    classes.push(stickyMenu);
+  }
+
   return (
-    <div className={themePrimary}>
+    <div className={classes.join(" ")}>
       {children}
     </div>
   );
 }
 
 Layout.propTypes = {
+  sticking: PropTypes.bool,
   children: PropTypes.node.isRequired,
 };
 

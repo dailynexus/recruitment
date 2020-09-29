@@ -10,7 +10,7 @@ featured:
     url: "https://dailynexus.com/2018-09-24/ucsb-mens-soccer-takes-down-no-23-bruins/"
   - title: "Cannon Hosts Official UCSB Baseball Podcast"
     url: "https://dailynexus.com/2020-08-29/cannon-hosts-official-ucsb-baseball-podcast/"
-  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2019/05/dncurry-01.png
+  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2019/05/dncurry-01.png"
     title: "The Greatest Shooter in the Game: An Ode to Steph Curry"
     url: "https://dailynexus.com/2019-05-17/the-greatest-shooter-in-the-game-an-ode-to-steph-curry/"
 ---

@@ -2,6 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { styled } from "linaria/react";
 
+import Anchor from "../components/styled/anchor";
 import Button from "../components/button";
 import ContentContainer from "../components/content-container";
 import SplitContainer from "../components/split-container";
@@ -31,7 +32,8 @@ function Hero() {
   `);
 
   return (
-    <Wrapper id="about">
+    <Wrapper>
+      <Anchor id="about" />
       <ContentContainer alignItems="center">
         <SplitContainer>
           <HeroText dangerouslySetInnerHTML={{__html: data.heroText.childMarkdownRemark.html}} />
