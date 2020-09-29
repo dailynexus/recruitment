@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 import ContentContainer from "../components/content-container";
-import Header from "../components/header";
+import SectionHeader from "./styled/section-header";
 
-const Wrapper = styled.div`
+const SocialMediaWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,9 +61,9 @@ function SocialMediaIndividual({ icon, to, children }) {
 
 function SocialMedia() {
   return (
-    <Wrapper>
+    <SocialMediaWrapper id="social">
       <ContentContainer alignItems="center">
-        <Header>Social Media</Header>
+        <SectionHeader>Social Media</SectionHeader>
         <SocialMediaContainer>
           <SocialMediaIndividual icon={faTwitter} to="https://twitter.com/dailynexus">
             @dailynexus
@@ -76,7 +76,7 @@ function SocialMedia() {
           </SocialMediaIndividual>
         </SocialMediaContainer>
       </ContentContainer>
-    </Wrapper>
+    </SocialMediaWrapper>
   );
 }
 
