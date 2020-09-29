@@ -36,7 +36,7 @@ const TeamTile = styled.div`
   padding: 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  transition: background-color ease-out 0.3s;
+  transition: background-color ease-out 0.25s;
   
   &:hover {
     background-color: var(--color-primary);

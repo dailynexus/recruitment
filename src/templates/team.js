@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { graphql } from "gatsby";
 import { css } from "linaria";
 import { styled } from "linaria/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDoubleLeft, faAngleDoubleRight} from "@fortawesome/free-solid-svg-icons";
 import Img from "gatsby-image";
 
 import Button from "../components/button";
@@ -40,11 +42,22 @@ const TeamName = styled.h1`
 `;
 
 const EditorialToggle = styled.a`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-left: 24px;
   font-size: 1.25rem;
   text-decoration: underline;
   color: var(--color-primary);
   cursor: pointer;
+`;
+
+const reversed = css`
+  flex-direction: row-reverse;
+`;
+
+const EditorialLinkText = styled.div`
+  margin: 0 1rem;
 `;
 
 const icon = css`
@@ -134,11 +147,28 @@ function Team({ data }) {
   if (data.file.childMarkdownRemark.frontmatter.editorial) {
     let linkText;
     if (editorialView) {
-      linkText = "View general positions";
+      linkText = (
+        <>
+          <EditorialLinkText>View general positions</EditorialLinkText>
+          <FontAwesomeIcon icon={faAngleDoubleLeft} />
+        </>
+      );
     } else {
-      linkText = "View editorial positions";
+      linkText = (
+        <>
+          <EditorialLinkText>View editorial positions</EditorialLinkText>
+          <FontAwesomeIcon icon={faAngleDoubleRight} />
+        </>
+      );
     }
-    editorialLink = <EditorialToggle onClick={() => setEditorialView(!editorialView)}>{linkText}</EditorialToggle>;
+
+    // Use row-reverse if showing editorial view with arrows on left, so that the text is used
+    // to calculate baseline for flex positioning instead of the arrows
+    editorialLink = <EditorialToggle
+      onClick={() => setEditorialView(!editorialView)}
+      className={editorialView ? reversed : ""}>
+        {linkText}
+      </EditorialToggle>;
   }
 
   let mainText;
