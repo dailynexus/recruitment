@@ -28,6 +28,12 @@ const brandingLink = css`
 const SiteTitle = styled.h1`
   font-size: 2rem;
   margin: 0 0 0 24px;
+  color: white;
+  transition: color ease-out 0.25s;
+
+  &:hover {
+    color: var(--color-accent);
+  }
 
   @media only screen and (max-width: 480px) {
     font-size: 1.5rem;
@@ -48,7 +54,7 @@ const menu = css`
   width: 100%;
   padding: 24px;
   margin-bottom: 24px;
-  background-color: white;
+  background-color: var(--color-primary);
 `;
 
 const MenuItemsContainer = styled.div`
@@ -70,11 +76,11 @@ const menuItem = css`
   margin: 0 16px;
   font-size: 1.5rem;
   text-decoration: none;
-  color: var(--color-fg);
+  color: white;
   transition: color ease-out 0.25s;
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--color-accent);
   }
 `;
 

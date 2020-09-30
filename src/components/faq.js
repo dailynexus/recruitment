@@ -36,8 +36,8 @@ const FAQBlockWrapper = styled.div`
   width: 100%;
   font-size: 1.25rem;
   margin-bottom: 30px;
-  border: 1px solid var(--color-fg);
-  border-radius: 10px;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px 10px 0 0;
 
   &:last-child {
     margin-bottom: 0;
@@ -50,6 +50,9 @@ const FAQHeader = styled.div`
   justify-content: space-between;
   cursor: pointer;
   padding: 20px;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 10px 10px 0 0;
 `;
 
 const iconFlipped = css`

@@ -7,12 +7,13 @@ import Img from "gatsby-image";
 import Anchor from "./styled/anchor";
 import SectionHeader from "./styled/section-header";
 
-const Wrapper = styled.div`
+const OurTeamsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px 0;
-`
+  background-color: var(--color-bg);
+`;
 
 const teamLink = css`
   text-decoration: none;
@@ -36,6 +37,7 @@ const TeamTile = styled.div`
   padding: 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  background-color: white;
   transition: background-color ease-out 0.25s;
   
   &:hover {
@@ -104,13 +106,13 @@ function OurTeams() {
   }).map((node) => <Team key={node.name} node={node} />);
 
   return (
-    <Wrapper>
+    <OurTeamsWrapper>
       <Anchor id="teams" />
       <SectionHeader>Our Teams</SectionHeader>
       <TeamsWrapper>
         {teams}
       </TeamsWrapper>
-    </Wrapper>
+    </OurTeamsWrapper>
   );
 }
 

@@ -12,6 +12,7 @@ const AboutUsWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 48px 0;
+  background-color: white;
 `;
 
 const art = css`

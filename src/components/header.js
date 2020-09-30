@@ -10,7 +10,7 @@ const HeaderWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-color: var(--color-primary);
   padding-top: 48px;
 `;
 
@@ -32,7 +32,7 @@ const logo = css`
 const RecruitmentLogoSubtext = styled.h2`
   margin: 0;
   font-size: 3rem;
-  color: #000;
+  color: white;
   text-transform: uppercase;
 
   @media only screen and (max-width: 600px) {

@@ -12,6 +12,7 @@ export const globals = css`
 
     body {
       margin: 0;
+      background-color: #f7f8ff;
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -21,9 +22,11 @@ export const globals = css`
 
 const themePrimary = css`
   --color-fg: #3D4454;
-  --color-primary: #4790FD;
-  --color-accent: #D16B94;
-  --color-accent-dark: #ad577a;
+  --color-bg: #f7f8ff;
+  --color-primary: #393e75;
+  --color-primary-alt: #707AE8;
+  --color-accent: #dc7a91;
+  --color-accent-dark: #8c4c5b;
 
   color: var(--color-fg);
   font-family: "PT Sans", "Helvetica", sans-serif;

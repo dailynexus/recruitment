@@ -13,6 +13,7 @@ const ContactWrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   padding: 48px 0;
+  background-color: var(--color-bg);
 `;
 
 const ContactCardContainer = styled.div`
@@ -29,6 +30,7 @@ const ContactCardWrapper = styled.div`
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
+  background-color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 `;
 
@@ -46,6 +48,7 @@ const Name = styled.div`
 `;
 
 const Email = styled.a`
+  color: var(--color-primary-alt);
   text-decoration: none;
 `;
 
