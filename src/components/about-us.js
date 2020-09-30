@@ -31,7 +31,7 @@ const AboutUsText = styled.div`
 `;
 
 const textGroup = css`
-  margin-left: 30px;
+  margin-left: 50px;
   flex: 1;
 
   @media only screen and (max-width: 768px) {
@@ -73,7 +73,7 @@ function AboutUs() {
           <Img className={art} fluid={data.artFile.childImageSharp.fluid} />
           <div className={textGroup}>
             <Header>About the Nexus</Header>
-            <AboutUsText dangerouslySetInnerHTML={{__html: data.aboutUsText.childMarkdownRemark.html}} />
+            <AboutUsText data-aos="fade-up" dangerouslySetInnerHTML={{__html: data.aboutUsText.childMarkdownRemark.html}} />
           </div>
         </SplitContainer>
       </ContentContainer>

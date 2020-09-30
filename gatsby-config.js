@@ -5,6 +5,7 @@ module.exports = {
     author: "web@dailynexus.com",
     siteUrl: "https://dailynexus.com/interactives/recruitment"
   },
+  pathPrefix: "/interactives/recruitment",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

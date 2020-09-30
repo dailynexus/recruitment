@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { css } from "linaria";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Footer from "./footer";
 
@@ -12,7 +14,7 @@ export const globals = css`
 
     body {
       margin: 0;
-      background-color: #f7f8ff;
+      background-color: #fffaf7;
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -21,8 +23,8 @@ export const globals = css`
 `;
 
 const themePrimary = css`
-  --color-fg: #3D4454;
-  --color-bg: #f7f8ff;
+  --color-fg: #232642;
+  --color-bg: #fffaf7;
   --color-primary: #393e75;
   --color-primary-alt: #707AE8;
   --color-accent: #dc7a91;
@@ -44,6 +46,12 @@ const stickyMenu = css`
 `;
 
 function Layout({ sticking, children }) {
+  useEffect(() => {
+    AOS.init({
+      disable: "mobile"
+    });
+  }, []);
+
   let classes = [themePrimary];
   if (sticking) {
     classes.push(stickyMenu);

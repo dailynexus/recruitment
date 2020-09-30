@@ -64,7 +64,7 @@ function Team({ node }) {
 
   return (
     <Link className={teamLink} to={node.name}>
-      <TeamTile>
+      <TeamTile data-aos="fade-up">
         <Img fixed={imageData} alt={frontmatter.title} />
         <TeamName>{frontmatter.title}</TeamName>
       </TeamTile>

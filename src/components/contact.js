@@ -54,7 +54,7 @@ const Email = styled.a`
 
 function ContactCard({ node }) {
   return (
-    <ContactCardWrapper>
+    <ContactCardWrapper data-aos="fade-up">
       <Img className={photo} fluid={node.photo.childImageSharp.fluid} />
       <ContactInfo>
         <Name>{node.name}</Name>

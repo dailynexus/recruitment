@@ -60,7 +60,7 @@ const AccountName = styled.span`
 function SocialMediaIndividual({ icon, to, children }) {
   return (
     <SocialMediaLink target="_blank" href={to}>
-      <SocialMediaIndividualGroup>
+      <SocialMediaIndividualGroup data-aos="fade-up">
         <FontAwesomeIcon icon={icon} className={socialIcon} />
         <AccountName>{children}</AccountName>
       </SocialMediaIndividualGroup>
