@@ -2,7 +2,7 @@
 priority: 12
 title: "Social"
 icon: "../../images/section-logos/social.png"
-image: "../../images/section-logos/social.jpg"
+image: "../../images/section-images/social.jpg"
 contact: "socialmedia@dailynexus.com"
 ---
 **The social media team is not currently hiring.**

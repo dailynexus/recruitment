@@ -7,9 +7,11 @@ import SEO from "../components/seo"
 import Header from "../components/header";
 import Menu from "../components/menu";
 import Hero from "../components/hero"
-import AboutUs from "../components/about-us"
-import SocialMedia from "../components/social-media"
-import OurTeams from "../components/our-teams"
+import AboutUs from "../components/about-us";
+import SocialMedia from "../components/social-media";
+import OurTeams from "../components/our-teams";
+import FAQ from "../components/faq";
+import Contact from "../components/contact";
 
 const IndexPage = () => {
   const scrollY = useScrollPosition(30);
@@ -26,6 +28,8 @@ const IndexPage = () => {
         <AboutUs />
         <SocialMedia />
         <OurTeams />
+        <FAQ />
+        <Contact />
       </Layout>
     </>
   );

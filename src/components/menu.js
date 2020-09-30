@@ -110,6 +110,8 @@ function Menu({ sticking }) {
           <Link class={menuItem} to="/#about">About</Link>
           <Link class={menuItem} to="/#social">Socials</Link>
           <Link class={menuItem} to="/#teams">Teams</Link>
+          <Link class={menuItem} to="/#faq">FAQ</Link>
+          <Link class={menuItem} to="/#contact">Contact</Link>
         </MenuItemsContainer>
       </MenuContainer>
     </div>

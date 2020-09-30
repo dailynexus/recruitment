@@ -10,9 +10,9 @@ const Wrapper = styled.div`
   align-items: ${props => props.alignItems};
 `;
 
-function ContentContainer({ alignItems, children }) {
+function ContentContainer({ alignItems, className, children }) {
   return (
-    <Wrapper alignItems={alignItems}>
+    <Wrapper className={className} alignItems={alignItems}>
       {children}
     </Wrapper>
   );

@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 import { css } from "linaria";
+
+import Footer from "./footer";
 
 export const globals = css`
   :global() {
@@ -48,6 +49,7 @@ function Layout({ sticking, children }) {
   return (
     <div className={classes.join(" ")}>
       {children}
+      <Footer />
     </div>
   );
 }

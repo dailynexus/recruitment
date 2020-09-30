@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Harper Lambert",
+    "title": "Editor in Chief",
+    "email": "eic@dailynexus.com",
+    "photo": "../images/section-images/harper.jpg"
+  },
+  {
+    "name": "Evelyn Spence",
+    "title": "Managing Editor",
+    "email": "managing@dailynexus.com",
+    "photo": "../images/section-images/evelyn.jpg"
+  }
+]
