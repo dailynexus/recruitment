@@ -21,8 +21,8 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.div`
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
   font-family: "Playfair Display", serif;
   text-align: center;
   color: white;
@@ -31,6 +31,8 @@ const Text = styled.div`
 const textSmall = css`
   font-size: 2rem;
   line-height: 3rem;
+  text-align: center;
+  flex: 1;
 `;
 
 function Button({ to, text, size }) {

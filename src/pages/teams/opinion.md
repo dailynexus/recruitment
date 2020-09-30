@@ -24,3 +24,5 @@ We have six columns that our staff writers write under: Argument in the Office, 
 Opinion writers get to explore the things that they are most passionate about and collaborate 
 with a group of passionate and outgoing individuals. Not to mention, our weekly meetings are
 known to include kick-ass icebreakers and hilarious horoscope-writing sessions. 
+
+To get involved with the Opinion section, email us at [opinion@dailynexus.com.](mailto:opinion@dailynexus.com)

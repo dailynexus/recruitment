@@ -16,6 +16,10 @@ const Wrapper = styled.div`
   max-width: 1200px;
   padding: 0 50px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 25px;
+  }
 `;
 
 const TeamHeaderWrapper = styled.div`
@@ -32,6 +36,10 @@ const NameEditorialGroup = styled.div`
   display: flex;
   flex-direction: row;
   align-items: baseline;
+
+  @media only screen and (max-width: 640px) {
+    align-items: center;
+  }
 `;
 
 const TeamName = styled.h1`
@@ -39,6 +47,12 @@ const TeamName = styled.h1`
   font-family: "Playfair Display", serif;
   font-size: 4rem;
   font-weight: normal;
+
+  @media only screen and (max-width: 640px) {
+    min-width: 8rem;
+    font-size: 3rem;
+    word-break: break-all;
+  }
 `;
 
 const EditorialToggle = styled.a`
@@ -57,11 +71,20 @@ const reversed = css`
 `;
 
 const EditorialLinkText = styled.div`
-  margin: 0 1rem;
+  margin-left: 1rem;
+`;
+
+const arrowIcon = css`
+  margin-left: 1rem;
 `;
 
 const icon = css`
+  margin-left: 20px;
   width: 150px;
+
+  @media only screen and (max-width: 640px) {
+    display: none;
+  }
 `;
 
 const ContentWrapper = styled.div`
@@ -71,11 +94,21 @@ const ContentWrapper = styled.div`
   padding-bottom: 24px;
   border-bottom: 2px solid #c4c4c4;
   margin-bottom: 24px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const RightColumn = styled.div`
   flex: 1;
   padding-left: 32px;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0 32px;
+  }
 `;
 
 const editorImage = css`
@@ -84,7 +117,7 @@ const editorImage = css`
 `;
 
 const Text = styled.div`
-  width: 100%;
+  flex: 1;
   max-width: 30rem;
   font-family: "PT Sans", "Helvetica", sans-serif;
   font-size: 1.25rem;
@@ -94,12 +127,18 @@ const ArticlesHeader = styled.h1`
   font-size: 3rem;
   margin-top: 0;
   margin-bottom: 20px;
+
+  @media only screen and (max-width: 1024px) {
+    text-align: center;
+  }
 `;
 
 const Articles = styled.div`
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: stretch;
   align-content: space-between;
 `;
@@ -149,15 +188,19 @@ function Team({ data }) {
     if (editorialView) {
       linkText = (
         <>
-          <EditorialLinkText>View general positions</EditorialLinkText>
-          <FontAwesomeIcon icon={faAngleDoubleLeft} />
+          <EditorialLinkText>
+            View general positions
+            <FontAwesomeIcon className={arrowIcon} icon={faAngleDoubleLeft} />
+          </EditorialLinkText>
         </>
       );
     } else {
       linkText = (
         <>
-          <EditorialLinkText>View editorial positions</EditorialLinkText>
-          <FontAwesomeIcon icon={faAngleDoubleRight} />
+          <EditorialLinkText>
+            View editorial positions
+            <FontAwesomeIcon className={arrowIcon} icon={faAngleDoubleRight} />
+          </EditorialLinkText>
         </>
       );
     }
@@ -197,7 +240,7 @@ function Team({ data }) {
               className={editorImage}
               imgStyle={{ objectFit: "contain" }} />
             <Button to={"mailto:" + data.file.childMarkdownRemark.frontmatter.contact}
-              text={"Contact: " + data.file.childMarkdownRemark.frontmatter.contact}
+              text={"Contact"}
               size="small" />
           </RightColumn>
         </ContentWrapper>

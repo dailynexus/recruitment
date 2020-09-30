@@ -5,9 +5,9 @@ import { styled } from "linaria/react";
 import Anchor from "../components/styled/anchor";
 import Button from "../components/button";
 import ContentContainer from "../components/content-container";
-import SplitContainer from "../components/split-container";
+import SplitContainer from "./styled/split-container";
 
-const Wrapper = styled.div`
+const HeroWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,6 +16,7 @@ const Wrapper = styled.div`
 `;
 
 const HeroText = styled.div`
+  margin-right: 20px;
   font-size: 1.5rem;
   max-width: 30rem; 
 `;
@@ -32,7 +33,7 @@ function Hero() {
   `);
 
   return (
-    <Wrapper>
+    <HeroWrapper>
       <Anchor id="about" />
       <ContentContainer alignItems="center">
         <SplitContainer>
@@ -40,7 +41,7 @@ function Hero() {
           <Button to="https://forms.gle/XcL7zU9Q4ssxfCsi8" text="Orientation Signup" />
         </SplitContainer>
       </ContentContainer>
-    </Wrapper>
+    </HeroWrapper>
   );
 }
 

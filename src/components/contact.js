@@ -12,7 +12,7 @@ const ContactWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 48px;
+  padding: 48px 0;
 `;
 
 const ContactCardContainer = styled.div`

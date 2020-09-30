@@ -34,6 +34,10 @@ const RecruitmentLogoSubtext = styled.h2`
   font-size: 3rem;
   color: #000;
   text-transform: uppercase;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;
 
 function Header() {

@@ -43,10 +43,18 @@ const SocialMediaIndividualGroup = styled.div`
 
 const socialIcon = css`
   font-size: 8rem;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 20vw;
+  }
 `;
 
 const AccountName = styled.span`
   font-size: 1.5rem;
+
+  @media only screen and (max-width: 640px) {
+    display: none;
+  }
 `;
 
 function SocialMediaIndividual({ icon, to, children }) {

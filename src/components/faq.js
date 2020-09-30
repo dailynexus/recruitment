@@ -16,12 +16,20 @@ const FAQWrapper = styled.div`
   padding: 48px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/nexus-art-cropped.png);
   color: var(--color-fg);
+
+  @media only screen and (max-width: 640px) {
+    padding: 48px 20px;
+  }
 `;
 
 const faqContainer = css`
   padding: 30px 60px;
   background-color: white;
   border-radius: 20px;
+
+  @media only screen and (max-width: 640px) {
+    padding: 30px;
+  }
 `;
 
 const FAQBlockWrapper = styled.div`
