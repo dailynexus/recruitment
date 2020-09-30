@@ -70,6 +70,7 @@ const MenuItemsContainer = styled.div`
 const menuToggle = css`
   display: none;
   font-size: 2rem;
+  color: white;
 `;
 
 const menuItem = css`
@@ -90,6 +91,7 @@ const CloseButton = styled.div`
   right: 2rem;
   top: 2rem;
   font-size: 3rem;
+  color: white;
 `;
 
 const expanded = css``;
@@ -117,14 +119,14 @@ const menuSticky = css`
       transform: translate(100%);
       height: 100%;
       padding: 0 50px;
-      min-width: 50vw;
-      background-color: white;
+      min-width: 100vw;
+      background-color: var(--color-primary);
       flex-direction: column;
       align-items: center;
       position: fixed;
       top: 0;
       right: 0;
-      transition: transform ease-out 0.3s;
+      transition: transform ease-out 0.2s;
 
       .${menuItem} {
         font-size: 3rem;

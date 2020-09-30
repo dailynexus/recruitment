@@ -24,7 +24,7 @@ const FAQWrapper = styled.div`
 
 const faqContainer = css`
   padding: 30px 60px;
-  background-color: white;
+  background-color: var(--color-bg);
   border-radius: 20px;
 
   @media only screen and (max-width: 640px) {
