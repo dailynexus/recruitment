@@ -26,19 +26,18 @@ const Text = styled.div`
   font-family: "Playfair Display", serif;
   text-align: center;
   color: white;
+  flex: 1;
 `;
 
 const textSmall = css`
   font-size: 2rem;
   line-height: 3rem;
-  text-align: center;
-  flex: 1;
 `;
 
-function Button({ to, text, size }) {
+function Button({ to, text, size, wrapperClass }) {
   return (
     <Link target="_blank" href={to}>
-      <Wrapper>
+      <Wrapper className={wrapperClass}>
         <Text className={(size === "small") ? textSmall: ""}>
           {text}
         </Text>
@@ -48,7 +47,8 @@ function Button({ to, text, size }) {
 }
 
 Button.defaultProps = {
-  size: "large"
+  size: "large",
+  wrapperClass: "" 
 }
 
 export default Button;

@@ -31,6 +31,10 @@ const OrientationNotice = styled.div`
   font-size: 2rem;
 `;
 
+const viewMainSite = css`
+  margin-top: 20px;
+`;
+
 function Hero() {
   const data = useStaticQuery(graphql`
     query HeroQuery {
@@ -54,6 +58,7 @@ function Hero() {
               <p><strong>Session 2:</strong> Wed. Oct. 7, 6 p.m.</p>
             </OrientationNotice>
             <Button to="https://forms.gle/XcL7zU9Q4ssxfCsi8" text="Orientation Signup" />
+            <Button wrapperClass={viewMainSite} to="https://dailynexus.com" text="View Main Site" />
           </div>
         </SplitContainer>
       </ContentContainer>
