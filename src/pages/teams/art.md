@@ -1,7 +1,7 @@
 ---
 priority: 11
 title: "Art"
-icon: "../../images/section-logos/news.png"
+icon: "../../images/section-logos/art.png"
 image: "../../images/section-images/art.png"
 contact: "art@dailynexus.com"
 ---

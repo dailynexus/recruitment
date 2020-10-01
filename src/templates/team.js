@@ -189,7 +189,7 @@ function Team({ data }) {
       linkText = (
         <>
           <EditorialLinkText>
-            View general positions
+            View general info 
             <FontAwesomeIcon className={arrowIcon} icon={faAngleDoubleLeft} />
           </EditorialLinkText>
         </>
@@ -198,7 +198,7 @@ function Team({ data }) {
       linkText = (
         <>
           <EditorialLinkText>
-            View editorial positions
+            Apply for editorial positions
             <FontAwesomeIcon className={arrowIcon} icon={faAngleDoubleRight} />
           </EditorialLinkText>
         </>

@@ -149,6 +149,12 @@ const menuSticky = css`
   }
 `;
 
+function MenuItem({ setMenuExpanded, to, label }) {
+  return (
+    <Link onClick={() => setMenuExpanded(false)} class={menuItem} to={to}>{label}</Link>
+  );
+}
+
 function Menu({ sticking }) {
   const data = useStaticQuery(graphql`
     query MenuQuery {
@@ -189,11 +195,11 @@ function Menu({ sticking }) {
               <FontAwesomeIcon icon={faTimes} />
             </CloseButton>
           }
-          <Link class={menuItem} to="/#about">About</Link>
-          <Link class={menuItem} to="/#social">Socials</Link>
-          <Link class={menuItem} to="/#teams">Teams</Link>
-          <Link class={menuItem} to="/#faq">FAQ</Link>
-          <Link class={menuItem} to="/#contact">Contact</Link>
+          <MenuItem setMenuExpanded={setMenuExpanded} to="/#about" label="About" />
+          <MenuItem setMenuExpanded={setMenuExpanded} to="/#social" label="Socials" />
+          <MenuItem setMenuExpanded={setMenuExpanded} to="/#teams" label="Teams" />
+          <MenuItem setMenuExpanded={setMenuExpanded} to="/#faq" label="FAQ" />
+          <MenuItem setMenuExpanded={setMenuExpanded} to="/#contact" label="Contact" />
         </MenuItemsContainer>
       </MenuContainer>
     </div>
