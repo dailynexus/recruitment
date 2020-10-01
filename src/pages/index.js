@@ -18,16 +18,18 @@ const IndexPage = () => {
   const scrollY = useScrollPosition(30);
   const [scrollThreshold, setScrollThreshold] = useState(200);
 
-  useEffect(() => {
-    if (window.innerWidth <= 600) {
-      // Match change in header subtext to 2rem
-      setScrollThreshold((0.11 * window.innerWidth) + 91);
-    } else if (window.innerWidth <= 768)  {
-      setScrollThreshold((0.11 * window.innerWidth) + 112);
-    } else {
-      setScrollThreshold(200);
-    }
-  }, [window.innerWidth])
+  if (typeof window !== "undefined") {
+    useEffect(() => {
+      if (window.innerWidth <= 600) {
+        // Match change in header subtext to 2rem
+        setScrollThreshold((0.11 * window.innerWidth) + 91);
+      } else if (window.innerWidth <= 768)  {
+        setScrollThreshold((0.11 * window.innerWidth) + 112);
+      } else {
+        setScrollThreshold(200);
+      }
+    }, [window.innerWidth])
+  }
 
   useEffect(() => {
     setSticking(scrollY > scrollThreshold);
