@@ -3,3 +3,5 @@
 The assistant Science & Tech editor can expect to work roughly 7-10 hours a week. This depends on whether or not the Nexus is publishing print, how many articles need to be edited and how many going-ons need to be reported on. Depending on the state of the novel coronavirus pandemic, the Nexus may transition to weekly print later in the year. The assistant editor will be expected to attend weekly print should these resume.
 
 Those writing popular science and science journalism should be able to grasp complex subjects and make these subjects digestible to the average reader. They should be confident in general science knowledge and know how to communicate appropriately with researchers and other professionals. Being able to read academic publications such as research articles, as well as other documents including government environmental reports or habitat management plans, is helpful. The assistant Science & Tech editor should be comfortable regularly writing and reporting.
+
+[Signup Form](https://docs.google.com/forms/d/e/1FAIpQLSdjKpElmdgHpm-IBu8Rovl2uF7ykNdeS720mqTC5eWEIBFXYA/viewform?gxids=7628)

@@ -11,3 +11,5 @@ Responsibilities:
 * Learn the editing process inside and out
 * Help shape pitches/article ideas
 * Be prepared pitch in and write articles to fill in gaps when Artsweek is running low on content
+
+[Signup Form](https://docs.google.com/forms/d/e/1FAIpQLSfmlHGSAiPI8kJsunwXMGaATR5fT2XFvjS4qxiIdX2vkfuI3g/viewform)

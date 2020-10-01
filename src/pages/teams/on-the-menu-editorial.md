@@ -2,4 +2,4 @@
 
 The On the Menu assistant editor will be responsible for aiding the On the Menu editor with designing the print layout, publishing web content, editing articles and helping writers brainstorm article ideas. Preference will be given to applicants who will not be graduating this year and are strongly recommended to have had at least one quarter experience of writing for On the Menu. The position will be remote for fall quarter, and the time commitments include weekly staff meetings, weekly editorial staff meetings, orientations and print nights. The candidate should be able to work well in a collaborative team environment, work diligently and should expect to eventually serve as the On the Menu Editor in the next year.
 
-[https://forms.gle/PCsms6DjCe4BYg8KA](https://forms.gle/PCsms6DjCe4BYg8KA)
+[Signup Form](https://forms.gle/PCsms6DjCe4BYg8KA)

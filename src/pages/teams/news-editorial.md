@@ -17,3 +17,5 @@ This position would focus on coverage of Isla Vista’s local government and goi
 * Lawsuits in Santa Barbara County and Isla Vista
 
 We also expect this editor to maintain long-standing relationships with community members and local leaders while also fulfilling new relationships through consistent outreach and news coverage. All editors are expected to pitch and report their own stories, as research and knowledge about the community at large is fundamental to local reporting. 
+
+[Signup Form](https://docs.google.com/forms/d/e/1FAIpQLSdfYPLyhDNyJZRl_7gA4aPlCXkNeRCR4o1kzENqCe7LuvzWaA/viewform?fbzx=-7561238935775359294)
