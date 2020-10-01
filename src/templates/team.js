@@ -14,11 +14,12 @@ import SEO from "../components/seo";
 const Wrapper = styled.div`
   width: 100%;
   max-width: 1200px;
-  padding: 0 50px;
+  padding: 112px 50px 0 50px;
   margin: 0 auto;
 
   @media only screen and (max-width: 768px) {
-    padding: 0 25px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 `;
 

@@ -15,7 +15,13 @@ import Contact from "../components/contact";
 
 const IndexPage = () => {
   const scrollY = useScrollPosition(30);
-  const scrollThreshold = 216; // Height of top header
+  console.log(scrollY);
+  let scrollThreshold = 200; // Height of top header
+
+  if (window.innerWidth <= 600) {
+    // Match change in header subtext to 2rem
+    scrollThreshold = 150;
+  }
   let sticking = (scrollY > scrollThreshold);
 
   return (
@@ -24,7 +30,7 @@ const IndexPage = () => {
         <SEO title="Home" />
         <Header />
         <Menu sticking={sticking} />
-        <Hero />
+        <Hero sticking={sticking} />
         <AboutUs />
         <SocialMedia />
         <OurTeams />

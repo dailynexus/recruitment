@@ -38,12 +38,13 @@ const themePrimary = css`
     font-weight: normal;
   }
 `;
-
+/*
 // Push content down by height+bottom margin of menu once menu is removed from normal flow
 // to avoid jump in position
 const stickyMenu = css`
   padding-top: 103px;
 `;
+*/
 
 function Layout({ sticking, children }) {
   useEffect(() => {
@@ -53,9 +54,10 @@ function Layout({ sticking, children }) {
   }, []);
 
   let classes = [themePrimary];
+  /*
   if (sticking) {
     classes.push(stickyMenu);
-  }
+  }*/
 
   return (
     <div className={classes.join(" ")}>

@@ -16,6 +16,12 @@ const HeroWrapper = styled.div`
   padding-bottom: 48px;
 `;
 
+// Push content down by height+bottom margin of menu once menu is removed from normal flow
+// to avoid jump in position
+const stickyMenu = css`
+  padding-top: 103px;
+`;
+
 const HeroText = styled.div`
   margin-right: 20px;
   font-size: 1.5rem;
@@ -35,7 +41,7 @@ const viewMainSite = css`
   margin-top: 20px;
 `;
 
-function Hero() {
+function Hero({ sticking }) {
   const data = useStaticQuery(graphql`
     query HeroQuery {
       heroText: file(relativePath: { eq: "hero-text.md" }) {
@@ -47,7 +53,7 @@ function Hero() {
   `);
 
   return (
-    <HeroWrapper>
+    <HeroWrapper className={sticking ? stickyMenu : ""}>
       <Anchor id="about" />
       <ContentContainer alignItems="center">
         <SplitContainer>
