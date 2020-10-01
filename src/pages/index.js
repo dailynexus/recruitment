@@ -20,8 +20,11 @@ const IndexPage = () => {
 
   if (window.innerWidth <= 600) {
     // Match change in header subtext to 2rem
-    scrollThreshold = 150;
+    scrollThreshold = (0.11 * window.innerWidth) + 91;
+  } else if (window.innerWidth <= 768)  {
+    scrollThreshold = (0.11 * window.innerWidth) + 112;
   }
+
   let sticking = (scrollY > scrollThreshold);
 
   return (

@@ -151,7 +151,7 @@ const menuSticky = css`
 
 function MenuItem({ setMenuExpanded, to, label }) {
   return (
-    <Link onClick={() => setMenuExpanded(false)} class={menuItem} to={to}>{label}</Link>
+    <Link onClick={() => setMenuExpanded(false)} className={menuItem} to={to}>{label}</Link>
   );
 }
 

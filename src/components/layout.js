@@ -12,6 +12,10 @@ export const globals = css`
       box-sizing: border-box;
     }
 
+    html, body {
+      overflow-x: hidden;
+    }
+
     body {
       margin: 0;
       background-color: #fffaf7;
