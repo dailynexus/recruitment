@@ -3,6 +3,7 @@ import useScrollPosition from '@react-hook/window-scroll';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import useWindowSize from "../hooks/useWindowSize";
 
 import Header from "../components/header";
 import Menu from "../components/menu";
@@ -17,23 +18,22 @@ const IndexPage = () => {
   const [sticking, setSticking] = useState(false);
   const scrollY = useScrollPosition(30);
   const [scrollThreshold, setScrollThreshold] = useState(200);
+  const windowSize = useWindowSize();
 
-  if (typeof window !== "undefined") {
-    useEffect(() => {
-      if (window.innerWidth <= 600) {
-        // Match change in header subtext to 2rem
-        setScrollThreshold((0.11 * window.innerWidth) + 91);
-      } else if (window.innerWidth <= 768)  {
-        setScrollThreshold((0.11 * window.innerWidth) + 112);
-      } else {
-        setScrollThreshold(200);
-      }
-    }, [window.innerWidth])
-  }
+  useEffect(() => {
+    if (windowSize.width <= 600) {
+      // Match change in header subtext to 2rem
+      setScrollThreshold((0.11 * windowSize.width) + 91);
+    } else if (windowSize.width <= 768) {
+      setScrollThreshold((0.11 * windowSize.width) + 112);
+    } else {
+      setScrollThreshold(200);
+    }
+  }, [ windowSize.width]);
 
   useEffect(() => {
     setSticking(scrollY > scrollThreshold);
-  }, [scrollY]);
+  }, [scrollY, scrollThreshold]);
 
   return (
     <>

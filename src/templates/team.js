@@ -162,8 +162,7 @@ const ArticleTile = styled.div`
 `;
 
 function FeaturedArticle({ article }) {
-  let backgroundStyle = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), \
-                         url(\"" + article.image + "\")";
+  let backgroundStyle = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(\"" + article.image + "\")";
 
   return (
     <ArticleLink href={article.url} target="_blank">

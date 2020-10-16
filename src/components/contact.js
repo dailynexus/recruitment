@@ -91,7 +91,7 @@ function Contact() {
       <ContentContainer alignItems="center">
         <SectionHeader>Contact Us</SectionHeader>
         <ContactCardContainer>
-          {data.allContactJson.nodes.map((node) => <ContactCard node={node} />)}
+          {data.allContactJson.nodes.map((node) => <ContactCard key={node.name} node={node} />)}
         </ContactCardContainer>
       </ContentContainer>
     </ContactWrapper>

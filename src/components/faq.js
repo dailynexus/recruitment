@@ -104,7 +104,7 @@ function FAQ() {
       <Anchor id="faq" />
       <ContentContainer alignItems="center" className={faqContainer}>
         <SectionHeader>FAQ</SectionHeader>
-        {data.allFaqJson.nodes.map((node) => <FAQBlock node={node} />)}
+        {data.allFaqJson.nodes.map((node) => <FAQBlock key={node.question} node={node} />)}
       </ContentContainer>
     </FAQWrapper>
   );
