@@ -59,11 +59,8 @@ function Hero({ sticking }) {
         <SplitContainer>
           <HeroText dangerouslySetInnerHTML={{__html: data.heroText.childMarkdownRemark.html}} />
           <div>
-            <OrientationNotice>
-              <p><strong>Session 1:</strong> Tue. Oct. 6, 6 p.m.</p>
-              <p><strong>Session 2:</strong> Wed. Oct. 7, 6 p.m.</p>
-            </OrientationNotice>
-            <Button to="https://forms.gle/XcL7zU9Q4ssxfCsi8" text="Orientation Signup" />
+            <Button to="https://calendar.google.com/calendar/embed?src=c_9fmo4mr69q2v6v6k6o6khfbi5c%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+              text="Meeting Times" />
             <Button wrapperClass={viewMainSite} to="https://dailynexus.com" text="View Main Site" />
           </div>
         </SplitContainer>
