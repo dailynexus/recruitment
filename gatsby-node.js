@@ -43,3 +43,13 @@ exports.createPages = async({ actions, graphql, reporter }) => {
     });
   });
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+      editorial: File
+    }
+  `
+  createTypes(typeDefs)
+}

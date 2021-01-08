@@ -4,7 +4,7 @@ title: "Science & Tech"
 icon: "../../images/section-logos/science.png"
 image: "../../images/section-images/science.jpg"
 contact: "science@dailynexus.com"
-editorial: "./science-tech-editorial.md"
+#editorial: "./science-tech-editorial.md"
 featured:
   - title: "Former UCSB Professor Faces Paper Retractions, Suspicions Regarding Anomalous Data"
     url: "https://dailynexus.com/2020-02-06/former-ucsb-professor-faces-paper-retractions-suspicions-regarding-anomalous-data/"

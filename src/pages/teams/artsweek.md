@@ -4,7 +4,7 @@ title: "Artsweek"
 icon: "../../images/section-logos/artsweek.png"
 image: "../../images/section-images/artsweek.jpg"
 contact: "artsweek@dailynexus.com"
-editorial: "./artsweek-editorial.md"
+#editorial: "./artsweek-editorial.md"
 featured:
   - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2020/03/IMG-3256.jpg"
     title: "White Reaper Wakes Up Santa Barbara With Concert at SOhO"

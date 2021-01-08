@@ -4,7 +4,7 @@ title: "On the Menu"
 icon: "../../images/section-logos/on-the-menu.png"
 image: "../../images/section-images/on-the-menu.jpg"
 contact: "onthemenu@dailynexus.com"
-editorial: "./on-the-menu-editorial.md"
+#editorial: "./on-the-menu-editorial.md"
 featured:
   - image: "https://i2.wp.com/dailynexus.com/wp-content/uploads/2019/10/FriedChickenFF.jpg"
     title: "Falling for Finch & Fork’s New Fall Menu"

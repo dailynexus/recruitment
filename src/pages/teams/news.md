@@ -4,7 +4,7 @@ title: "News"
 icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/news.jpg"
 contact: "news@dailynexus.com"
-editorial: "./news-editorial.md"
+#editorial: "./news-editorial.md"
 featured:
   - image: "https://i2.wp.com/dailynexus.com/wp-content/uploads/2020/08/black-voices-online-graphic-final.jpg"
     title: 'The “Uphill Fight that the Black Community in America has Constantly Been Fighting Towards”: UCSB and IV Community Speak on Black Lives Matter Movement'

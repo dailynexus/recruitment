@@ -4,6 +4,7 @@ title: "Copy"
 icon: "../../images/section-logos/copy.png"
 image: "../../images/section-images/copy.jpg"
 contact: "copy@dailynexus.com"
+editorial: null
 ---
 The copy team reads and edits all articles at the Daily Nexus for accuracy, clarity and adherence to Associated Press style. We help make sure that all articles at the Nexus are consistent and correct to uphold the Nexus' reputation as a reliable and quality news source for the UCSB and Isla Vista communities.
 
