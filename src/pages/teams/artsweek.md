@@ -16,7 +16,7 @@ featured:
     title: "Inside the Mind of Jordan Mitchell"
     url: "https://dailynexus.com/2019-05-16/inside-the-mind-of-jordan-mitchell/"
 ---
-**The Artsweek section is looking for writers for the 2020-21 school year.**
+<!--**The Artsweek section is looking for writers for the 2020-21 school year.**-->
 
 The Daily Nexus’ Artsweek section covers the latest in music, movies, the entertainment industry and pop culture. Our writers review recent film and album releases, report on local events such as concerts and screenings, write feature articles on student artists and musicians, and more. 
 

@@ -15,7 +15,7 @@ featured:
     title: "UCSB Researcher Studies Possibility of Greater Wildfire Frequency in Future"
     url: "https://dailynexus.com/2018-10-04/ucsb-researcher-studies-possibility-of-greater-wildfire-frequency-in-future/"
 ---
-**The Science & Tech section is looking for writers for the 2020-21 school year.**
+<!--**The Science & Tech section is looking for writers for the 2020-21 school year.**-->
  
 UCSB is a world-class research university with top names, and Nobel laureates, working here across many disciplines. It has been the site of countless achievements, including the creation of the now-ubiquitous atomic force microscope and efficient blue LEDs — even serving as one of the first nodes of ARPANET during the dawn of the digital era. History has been made at this school many times. 
  
