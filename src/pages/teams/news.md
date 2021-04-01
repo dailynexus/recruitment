@@ -16,7 +16,7 @@ featured:
     title: "UC Santa Cruz Reinstates 41 Teaching Assistants Dismissed over COLA Strikes"
     url: "https://dailynexus.com/2020-08-17/uc-santa-cruz-reinstates-41-teaching-assistants-dismissed-over-cola-strikes/"
 ---
-<!--**The news section is looking for reporters for the 2020-21 school year.**-->
+**The news section is looking for reporters for the 2020-21 school year.**
 
 The news team is responsible for reporting on all things in and around Isla Vista, UC Santa Barbara and the greater UC system. Our coverage seeks to answer the questions that are important to these communities and provide a reliable source of the need-to-know information for students, faculty, families, business owners, leaders and more.  
 

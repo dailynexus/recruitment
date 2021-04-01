@@ -13,7 +13,7 @@ featured:
     title: "Quarantine Food Trend Alert: Dalgona Coffee"
     url: "https://dailynexus.com/2020-04-15/quarantine-food-trend-alert-dalgona-coffee/"
 ---
-<!--**The On The Menu section is looking for writers for the 2020-21 school year.**-->
+**The On The Menu section is looking for writers for the 2020-21 school year.**
 
 On the Menu is the section of the Daily Nexus dedicated to all things food-related. We are a collection of foodies who write recipes, restaurant reviews, health tips and more! 
 

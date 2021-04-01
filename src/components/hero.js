@@ -49,6 +49,13 @@ function Hero({ sticking }) {
           html
         }
       }
+
+      heroLinkFile: file(relativePath: { eq: "hero-link.json" }) {
+        childDataJson {
+          title
+          url
+        }
+      }
     }
   `);
 
@@ -59,8 +66,7 @@ function Hero({ sticking }) {
         <SplitContainer>
           <HeroText dangerouslySetInnerHTML={{__html: data.heroText.childMarkdownRemark.html}} />
           <div>
-            <Button to="https://forms.gle/c3QrUWSnQQJ4DEQ77"
-              text="Sign Up for Orientation" />
+            <Button to={data.heroLinkFile.childDataJson.url} text={data.heroLinkFile.childDataJson.title} />
             <Button wrapperClass={viewMainSite} to="https://dailynexus.com" text="View Main Site" />
           </div>
         </SplitContainer>
