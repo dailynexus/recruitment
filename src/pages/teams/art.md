@@ -4,6 +4,7 @@ title: "Art"
 icon: "../../images/section-logos/art.png"
 image: "../../images/section-images/art.png"
 contact: "art@dailynexus.com"
+editorial: "./art-editorial.md"
 ---
 **Our art team is looking for artists for the 2020-21 school year.**
 

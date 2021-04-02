@@ -4,6 +4,7 @@ title: "Sports"
 icon: "../../images/section-logos/sports.png"
 image: "../../images/section-images/sports.jpg"
 contact: "sports@dailynexus.com"
+editorial: "./sports-editorial.md"
 featured:
   - image: "https://i1.wp.com/dailynexus.com/wp-content/uploads/2017/10/MensSoccer_ChristinaDeMarzo_10-21-17_1-web.jpg"
     title: "UCSB Men’s Soccer Takes Down No. 23 Bruins"
