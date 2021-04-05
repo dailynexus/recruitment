@@ -1,6 +1,6 @@
 **Sports is looking to hire TWO editors this quarter.**
 
-**To submit your application, please contact [sports@dailynexus.com.](mailto:sports@dailynexus.com)**
+**To submit your application, please [fill out the form here.](https://docs.google.com/forms/d/1x_MUdUT9iFOJk1EC1SM641xaE6hs3Xwe2aOdBNN44BU/viewform)**
 
 As the Sports Editor of the Daily Nexus, your role will be to oversee the operations of the sports section.
 Ultimately, the sports section’s main responsibility is to cover any and all UCSB sports through previews, recaps,

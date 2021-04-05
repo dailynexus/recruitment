@@ -1,5 +1,7 @@
 **The Data section is currently looking for a data editor.**
 
+**To submit your application, please [fill out the form here.](https://docs.google.com/forms/d/e/1FAIpQLSdLqOx9UQ43hBkd_HECI6b2YXijdFMR_26B779Fgj9vEpDNKA/viewform)**
+
 The data editor will be responsible for writing and editing data stories and graphics, participating in editorial decisions, assigning stories and maintaining the section's on-going projects.
 
 You can learn more about our section and browse our stories here:
