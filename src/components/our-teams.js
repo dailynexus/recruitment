@@ -28,6 +28,10 @@ const TeamName = styled.div`
   transition: color ease-out 0.3s;
 `;
 
+const smallerName = css`
+  font-size: 1.25rem;
+`;
+
 const TeamTile = styled.div`
   width: 270px;
   margin: 20px;
@@ -62,11 +66,16 @@ function Team({ node }) {
   let frontmatter = childMarkdownRemark.frontmatter;
   let imageData = frontmatter.icon.childImageSharp.fixed;
 
+  let nameClasses = "";
+  if (frontmatter.title.length > 16) {
+    nameClasses += smallerName;
+  }
+
   return (
     <Link className={teamLink} to={node.name}>
       <TeamTile data-aos="fade-up">
         <Img fixed={imageData} alt={frontmatter.title} />
-        <TeamName>{frontmatter.title}</TeamName>
+        <TeamName className={nameClasses}>{frontmatter.title}</TeamName>
       </TeamTile>
     </Link>
   );

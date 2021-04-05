@@ -4,6 +4,7 @@ title: "Video"
 icon: "../../images/section-logos/video.png"
 image: "../../images/section-images/video.jpg"
 contact: "video@dailynexus.com"
+editorial: "./video-editorial.md"
 featured:
   - title: "In a Reopening Roller Coaster, Barber Shops Are Cutting Profits Thin"
     url: "https://dailynexus.com/2020-08-07/in-a-reopening-roller-coaster-barber-shops-are-cutting-profits-thin/"
