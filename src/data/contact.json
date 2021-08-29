@@ -1,14 +1,14 @@
 [
   {
-    "name": "Harper Lambert",
+    "name": "Katherine Swartz (she/her)",
     "title": "Editor in Chief",
     "email": "eic@dailynexus.com",
-    "photo": "../images/section-images/harper.jpg"
+    "photo": "../images/section-images/katherine.jpg"
   },
   {
-    "name": "Evelyn Spence",
+    "name": "Melanie Ziment (she/her)",
     "title": "Managing Editor",
     "email": "managing@dailynexus.com",
-    "photo": "../images/section-images/evelyn.jpg"
+    "photo": "../images/section-images/melanie.jpg"
   }
 ]
