@@ -28,15 +28,6 @@ const HeroText = styled.div`
   max-width: 30rem; 
 `;
 
-const OrientationNotice = styled.div`
-  background-color: var(--color-primary);
-  color: white;
-  margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 20px;
-  font-size: 2rem;
-`;
-
 const viewMainSite = css`
   margin-top: 20px;
 `;
@@ -66,8 +57,7 @@ function Hero({ sticking }) {
         <SplitContainer>
           <HeroText dangerouslySetInnerHTML={{__html: data.heroText.childMarkdownRemark.html}} />
           <div>
-            <Button to={data.heroLinkFile.childDataJson.url} text={data.heroLinkFile.childDataJson.title} />
-            <Button wrapperClass={viewMainSite} to="https://dailynexus.com" text="View Main Site" />
+            <Button wrapperClass={viewMainSite} to="https://dailynexus.com" text="View Daily Nexus Homepage" />
           </div>
         </SplitContainer>
       </ContentContainer>
