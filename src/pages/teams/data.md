@@ -4,7 +4,7 @@ title: "Data"
 icon: "../../images/section-logos/labyrinth.png"
 image: "../../images/section-images/data.jpg"
 contact: "data@dailynexus.com"
-editorial: "./data-editorial.md"
+#editorial: "./data-editorial.md"
 featured:
   - title: "IVCSD Discusses Community-Based Policing for Isla Vista"
     url: "https://dailynexus.com/2021-08-05/ivcsd-discusses-community-based-policing-for-isla-vista/"
