@@ -1,7 +1,7 @@
 ---
 priority: 16
 title: "Hot Off the Pod"
-icon: "../../images/section-logos/hot-off-the-pod.png"
+icon: "../../images/section-logos/hot-off-the-pod.jpg"
 image: "../../images/section-images/hot-off-the-pod.png"
 contact: "hotoffthepod@dailynexus.com"
 ---

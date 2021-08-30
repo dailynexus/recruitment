@@ -8,7 +8,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
   const typeDefs = `
     type MarkdownRemarkFrontmatter implements Node {
-      editorial: File!
+      editorial: File
     }
   `
   createTypes(typeDefs);
