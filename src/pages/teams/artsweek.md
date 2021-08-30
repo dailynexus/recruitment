@@ -6,20 +6,18 @@ image: "../../images/section-images/artsweek.jpg"
 contact: "artsweek@dailynexus.com"
 #editorial: "./artsweek-editorial.md"
 featured:
-  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2020/03/IMG-3256.jpg"
-    title: "White Reaper Wakes Up Santa Barbara With Concert at SOhO"
-    url: "https://dailynexus.com/2020-03-10/white-reaper-wakes-up-santa-barbara-with-concert-at-soho/"
-  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2020/01/parasite.jpg"
-    title: "An Exhilarating Year of Film: The Best of 2019"
-    url: "https://dailynexus.com/2020-01-09/an-exhilarating-year-of-film-the-best-of-2019/"
-  - image: "https://i2.wp.com/dailynexus.com/wp-content/uploads/2019/05/BOL_0655.jpg"
-    title: "Inside the Mind of Jordan Mitchell"
-    url: "https://dailynexus.com/2019-05-16/inside-the-mind-of-jordan-mitchell/"
+  - title: "A Conversation with Santa Barbara Musician Conner Cherland"
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/05/23105324/cheesin.jpg"
+    url: "https://dailynexus.com/2021-05-23/a-conversation-with-santa-barbara-musician-conner-cherland/"
+  - title: "Forget the Remake and the Reboot. Are We Entering the Age of the Cinematic Redo?"
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/04/15195350/justice-league-zack-snyder.jpg"
+    url: "https://dailynexus.com/2021-04-15/forget-the-remake-and-the-reboot-are-we-entering-the-age-of-the-cinematic-redo/"
+  - title: 'Record Recap: In Memoriam of MF DOOM, “Your Favorite Rapper’s Favorite Rapper”'
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/01/10101906/MF_DOOM.jpg"
+    url: "https://dailynexus.com/2021-01-10/in-memoriam-of-mf-doom-your-favorite-rappers-favorite-rapper/"
 ---
-**The Artsweek section is looking for writers for the 2020-21 school year.**
+The *Daily Nexus*’s Artsweek section covers the latest in music, movies, the entertainment industry and pop culture. Our writers review recent film and album releases, report in-person on local events such as concerts and screenings, write feature articles on student artists, musicians, etc. and more.
 
-The Daily Nexus’ Artsweek section covers the latest in music, movies, the entertainment industry and pop culture. Our writers review recent film and album releases, report on local events such as concerts and screenings, write feature articles on student artists and musicians, and more. 
+Story grabs are given out during section meetings, which occur once a week, where writers can sign up to cover pieces on a first-come, first-served basis. Writers can pitch potential article ideas during the section meetings as well.
 
-Story pitches are given out during section meetings, which occur once a week, where writers can sign up to cover pieces on a first-come, first-served basis. Writers can pitch potential article ideas during the section meetings as well. 
-
-Be sure to attend the virtual orientation for Artsweek for more detailed information and answers to any questions you may have! I hope to see you all there :)
+Be sure to attend the orientation for Artsweek for more detailed information and answers to any questions you may have! We hope to see you all there:) 

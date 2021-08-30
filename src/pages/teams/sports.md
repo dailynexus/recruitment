@@ -4,18 +4,19 @@ title: "Sports"
 icon: "../../images/section-logos/sports.png"
 image: "../../images/section-images/sports.jpg"
 contact: "sports@dailynexus.com"
-editorial: "./sports-editorial.md"
+#editorial: "./sports-editorial.md"
 featured:
-  - image: "https://i1.wp.com/dailynexus.com/wp-content/uploads/2017/10/MensSoccer_ChristinaDeMarzo_10-21-17_1-web.jpg"
-    title: "UCSB Men’s Soccer Takes Down No. 23 Bruins"
-    url: "https://dailynexus.com/2018-09-24/ucsb-mens-soccer-takes-down-no-23-bruins/"
-  - title: "Cannon Hosts Official UCSB Baseball Podcast"
-    url: "https://dailynexus.com/2020-08-29/cannon-hosts-official-ucsb-baseball-podcast/"
-  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2019/05/dncurry-01.png"
-    title: "The Greatest Shooter in the Game: An Ode to Steph Curry"
-    url: "https://dailynexus.com/2019-05-17/the-greatest-shooter-in-the-game-an-ode-to-steph-curry/"
+  - title: "United States Major Sports Took Major Victories at the Olympics"
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/08/22111707/usolyimpicmedal.png"
+    url: "https://dailynexus.com/2021-08-22/united-states-major-sports-took-major-victories-at-the-olympics/"
+  - title: "Michael McGreevy Taken 18th Overall; Two Other Gauchos Chosen in MLB Draft"
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/07/18191244/Baseball_v_Sta_Clara_McGreevy_007-scaled-1-1-1536x1044.jpg"
+    url: "https://dailynexus.com/2021-07-22/michael-mcgreevy-taken-18th-overall-two-other-gauchos-chosen-in-mlb-draft/"
+  - title: "UCSB Baseball Receive a Numerous Amount of End of the Season Awards"
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2016/05/2016.05.26_StephenManga_Baseball-web-768x512.jpg"
+    url: "https://dailynexus.com/2021-06-20/ucsb-baseball-receive-a-numerous-amount-of-end-of-the-season-awards/"
 ---
-**The sports section is looking for writers for the 2020-21 school year.**
+**The sports section is looking for writers for the 2021-22 school year.**
 
 The Daily Nexus sports section specializes in everything UCSB sports. As one of the only media outlets that covers Gaucho athletics, we strive for thorough, in-depth coverage of all Gaucho athletics. Because of UCSB's status as a mid-major school, our writers are able to receive media privileges such as sitting in the press box, attending press conferences and gaining access to athletes and coaches for interviews. Through previews, recaps and features, we seek to keep the UCSB community informed and engaged with UCSB athletics.
 
