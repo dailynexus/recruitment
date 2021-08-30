@@ -4,6 +4,16 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter implements Node {
+      editorial: File!
+    }
+  `
+  createTypes(typeDefs);
+}
+
 exports.createPages = async({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const teamTemplate = require.resolve("./src/templates/team.js");
