@@ -26,6 +26,7 @@ const TeamName = styled.div`
   color: var(--color-fg);
   text-decoration: none;
   transition: color ease-out 0.3s;
+  overflow-wrap: anywhere;
 `;
 
 const smallerName = css`
@@ -51,6 +52,16 @@ const TeamTile = styled.div`
       color: white;
     }
   }
+
+  @media screen and (max-width: 700px) {
+    width: 150px;
+    padding: 16px;
+    margin: 10px;
+  }
+`;
+
+const teamLogo = css`
+  width: 100%;
 `;
 
 const TeamsWrapper = styled.div`
@@ -59,12 +70,16 @@ const TeamsWrapper = styled.div`
   flex-direction: row;
   justify-content: center; 
   flex-wrap: wrap;
+
+  @media screen and (max-width: 600px) {
+    padding: 0;
+  }
 `;
 
 function Team({ node }) {
   let { childMarkdownRemark } = node;
   let frontmatter = childMarkdownRemark.frontmatter;
-  let imageData = frontmatter.icon.childImageSharp.fixed;
+  let imageData = frontmatter.icon.childImageSharp.fluid;
 
   let nameClasses = "";
   if (frontmatter.title.length > 16) {
@@ -74,7 +89,7 @@ function Team({ node }) {
   return (
     <Link className={teamLink} to={node.name}>
       <TeamTile data-aos="fade-up">
-        <Img fixed={imageData} alt={frontmatter.title} />
+        <Img className={teamLogo} fluid={imageData} alt={frontmatter.title} />
         <TeamName className={nameClasses}>{frontmatter.title}</TeamName>
       </TeamTile>
     </Link>
@@ -93,8 +108,8 @@ function OurTeams() {
               title
               icon {
                 childImageSharp {
-                  fixed(width: 200, height: 200, quality: 100) {
-                    ...GatsbyImageSharpFixed
+                  fluid(maxWidth: 200, quality: 100) {
+                    ...GatsbyImageSharpFluid
                   }
                 }
               }
