@@ -5,14 +5,14 @@ icon: "../../images/section-logos/opinion.png"
 image: "../../images/section-images/opinion.jpg"
 contact: "opinion@dailynexus.com"
 featured:
-  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2019/02/ask-aj.jpg"
-    title: "Ask AJ: One Marijuana & Too Many Yerbs"
-    url: "https://dailynexus.com/2020-08-27/ask-aj-one-marijuana-too-many-yerbs/"
-  - title: "Guns, Germs, and Steeling for the Future"
-    url: "https://dailynexus.com/2020-05-23/guns-germs-and-steeling-for-the-future/"
-  - image: "https://i0.wp.com/dailynexus.com/wp-content/uploads/2020/04/earthday-e1586999410466.jpg"
-    title: "Celebrating Earth Day’s 50th Anniversary In The Midst of Coronavirus"
-    url: "https://dailynexus.com/2020-04-18/celebrating-earth-days-50th-anniversary-in-the-midst-of-covid-19/"
+  - title: "A Comprehensive Guide to Big Media’s Queerbaiting Crimes"
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/06/18093524/Queerbaiting2-1-768x672.png"
+    url: "https://dailynexus.com/2021-06-18/a-comprehensive-guide-to-big-medias-queerbaiting-crimes/"
+  - title: "Argument in the Office: Warning, This Article Contains Spoilers!"
+    url: "https://dailynexus.com/2021-05-18/argument-in-the-office-warning-this-article-contains-spoilers/"
+  - title: 'Your “Gamer Girl” Aesthetic Has Real Consequences'
+    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/05/30091112/asian-fetishization-illustration-768x576.png"
+    url: "https://dailynexus.com/2021-05-30/your-gamer-girl-aesthetic-has-real-consequences/"
 ---
 **The opinion section is looking for writers for the 2020-21 school year.**
 
