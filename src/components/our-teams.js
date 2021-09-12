@@ -27,6 +27,7 @@ const TeamName = styled.div`
   text-decoration: none;
   transition: color ease-out 0.3s;
   overflow-wrap: anywhere;
+  text-align: center;
 `;
 
 const smallerName = css`
