@@ -1,10 +1,10 @@
+Dear Reader,
 Welcome to the Daily Nexus, UC Santa Barbara’s award-winning student newspaper.
 The Nexus is UC Santa Barbara’s only independent, student-run newspaper. We’ve been reporting on UCSB and Isla Vista since the 1930s.
 
-The Nexus includes 20 sections, with hundreds of writers, photographers, videographers, designers and more! 
-No experience necessary to join. 
+We are so happy to see your interest in joining our team. Whether you are a first-year trying to find your place on campus, or a fourth-year telling yourself you’d finally get around to joining that extracurricular you said you would – we are a space for you.
 
-This winter, the Nexus is looking to recruit staff members and assistant editors of all years and levels of experience!
+We are always looking for eager and passionate writers, videographers, photographers, and artists. Whatever fits your fancy.
+From the hard breaking news headlines to the not so serious headlines like “I.V. landlord charges extra for mold: claims exotic houseplant.” I am sure we have something for you.
 
-On this website, you’ll find information about each of our sections.
-Winter Orientation will be held via Zoom at [bit.ly/nexusorientation2022](http://bit.ly/nexusorientation2022) on January 18 and 19 at 6 p.m. PST. See you there!
+In fact, window shop our sections:

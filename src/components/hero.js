@@ -57,7 +57,7 @@ function Hero({ sticking }) {
         <SplitContainer>
           <HeroText dangerouslySetInnerHTML={{__html: data.heroText.childMarkdownRemark.html}} />
           <div>
-            <Button to={data.heroLinkFile.childDataJson.url} text={data.heroLinkFile.childDataJson.title} />
+            {/* <Button to={data.heroLinkFile.childDataJson.url} text={data.heroLinkFile.childDataJson.title} /> */}
             <Button wrapperClass={viewMainSite} to="https://dailynexus.com" text="View Daily Nexus Homepage" />
           </div>
         </SplitContainer>
