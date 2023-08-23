@@ -60,8 +60,8 @@ module.exports = {
         name: `Daily Nexus Recruitment`,
         short_name: `Recruitment`,
         start_url: `/`,
-        background_color: `#393e75`,
-        theme_color: `#393e75`,
+        background_color: `#f6ca51`,
+        theme_color: `#f6ca51`,
         display: `minimal-ui`,
         icon: "src/images/nexus-logo-icon.png"
       },

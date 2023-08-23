@@ -29,9 +29,9 @@ export const globals = css`
 const themePrimary = css`
   --color-fg: #232642;
   --color-bg: #fffaf7;
-  --color-primary: #393e75;
+  --color-primary: #f6ca51;
   --color-primary-alt: #707AE8;
-  --color-accent: #dc7a91;
+  --color-accent: #f6ca51;
   --color-accent-dark: #8c4c5b;
 
   color: var(--color-fg);
