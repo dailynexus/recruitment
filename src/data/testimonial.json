@@ -1,0 +1,38 @@
+[
+  {
+    "name": "amitha",
+    "image": "../images/testimonials/Testimonials.png"
+  },
+  {
+    "name": "angelica",
+    "image": "../images/testimonials/Testimonials-1.png"
+  },
+  {
+    "name": "asumi",
+    "image": "../images/testimonials/Testimonials-2.png"
+  },
+  {
+    "name": "isaiah",
+    "image": "../images/testimonials/Testimonials-3.png"
+  },
+  {
+    "name": "joshua",
+    "image": "../images/testimonials/Testimonials-4.png"
+  },
+  {
+    "name": "ruhika",
+    "image": "../images/testimonials/Testimonials-5.png"
+  },
+  {
+    "name": "audrey",
+    "image": "../images/testimonials/Testimonials-6.png"
+  },
+  {
+    "name": "olive",
+    "image": "../images/testimonials/Testimonials-7.png"
+  },
+  {
+    "name": "lauren",
+    "image": "../images/testimonials/Testimonials-8.png"
+  }
+]

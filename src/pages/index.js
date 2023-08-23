@@ -8,9 +8,10 @@ import useWindowSize from "../hooks/useWindowSize";
 import Header from "../components/header";
 import Menu from "../components/menu";
 import Hero from "../components/hero"
+import OurTeams from "../components/our-teams";
+import Testimonial from "../components/testimonial";
 import AboutUs from "../components/about-us";
 import SocialMedia from "../components/social-media";
-import OurTeams from "../components/our-teams";
 import FAQ from "../components/faq";
 import Contact from "../components/contact";
 
@@ -42,10 +43,11 @@ const IndexPage = () => {
         <Header />
         <Menu sticking={sticking} />
         <Hero sticking={sticking} />
+        <OurTeams />
+        <Testimonial />
+        <FAQ />
         <AboutUs />
         <SocialMedia />
-        <OurTeams />
-        <FAQ />
         <Contact />
       </Layout>
     </>
