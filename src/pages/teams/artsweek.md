@@ -3,6 +3,10 @@ priority: 3
 title: "Artsweek"
 icon: "../../images/section-logos/artsweek.png"
 image: "../../images/section-images/artsweek.jpg"
+editors:
+  - name: "Lauren Chiou"
+    role: "Artsweek Editor"
+    path: "../../images/section-images/lauren_chiou.jpg"
 contact: "artsweek@dailynexus.com"
 #editorial: "./artsweek-editorial.md"
 featured:

@@ -3,6 +3,10 @@ priority: 10
 title: "Production"
 icon: "../../images/section-logos/production.png"
 image: "../../images/section-images/production.jpg"
+editors:
+  - name: "Mina Orlic"
+    role: "Production Editor"
+    path: "../../images/section-images/mina_orlic.jpg"
 contact: "production@dailynexus.com"
 ---
 **Our production team is looking for graphic designers for the 2021-22 school year.**

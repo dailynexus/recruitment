@@ -3,6 +3,13 @@ priority: 14
 title: "Copy"
 icon: "../../images/section-logos/copy.png"
 image: "../../images/section-images/copy.jpg"
+editors:
+  - name: "Jesse MacDonald"
+    role: "Chief Copy Editors"
+    path: "../../images/section-images/jesse_macdonald.jpg"
+  - name: "Grace Liu"
+    role: "Chief Copy Editors"
+    path: "../../images/section-images/grace_liu.jpg"
 contact: "copy@dailynexus.com"
 ---
 **The copy team will be hiring new editors this fall for the 2021-22 school year.**

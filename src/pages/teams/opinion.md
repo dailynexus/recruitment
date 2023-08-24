@@ -3,6 +3,10 @@ priority: 0
 title: "Opinion"
 icon: "../../images/section-logos/opinion.png"
 image: "../../images/section-images/opinion.jpg"
+editors:
+  - name: "Amitha Bhat"
+    role: "Opinion Editor"
+    path: "../../images/section-images/amitha_bhat.jpg"
 contact: "opinion@dailynexus.com"
 featured:
   - title: "A Comprehensive Guide to Big Media’s Queerbaiting Crimes"

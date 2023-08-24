@@ -173,6 +173,24 @@ function FeaturedArticle({ article }) {
   );
 }
 
+const ImageContainer = styled.div`
+  
+`
+
+function ImageWrapper({ editor }) {
+  // let backgroundStyle = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(\"" + article.image + "\")";
+
+  return (
+    <>
+      <Img fluid={editor.path.childImageSharp.fluid}
+        className={editorImage}
+        imgStyle={{ objectFit: "contain" }}/>
+      <h2>{editor.name}</h2>
+      <h2>{editor.role}</h2>
+    </>
+  );
+}
+
 function Team({ data }) {
   const [editorialView, setEditorialView] = useState(false);
 
@@ -180,6 +198,12 @@ function Team({ data }) {
   let featuredArticles;
   if (featured) {
     featuredArticles = featured.map((article) => <FeaturedArticle article={article} />);
+  }
+
+  const editors = data.file.childMarkdownRemark.frontmatter.editors;
+  let editorsImgs;
+  if (editors) {
+    editorsImgs = editors.map((editor) => <ImageWrapper editor={editor} />);
   }
 
   let editorialLink;
@@ -236,9 +260,9 @@ function Team({ data }) {
         <ContentWrapper>
           <Text dangerouslySetInnerHTML={{__html: mainText}} />
           <RightColumn>
-            <Img fluid={data.file.childMarkdownRemark.frontmatter.image.childImageSharp.fluid}
-              className={editorImage}
-              imgStyle={{ objectFit: "contain" }} />
+            {editorsImgs && (
+              <ImageContainer>{editorsImgs}</ImageContainer>
+            )}
             <Button to={"mailto:" + data.file.childMarkdownRemark.frontmatter.contact}
               text={"Contact"}
               size="small" />
@@ -270,10 +294,14 @@ query TeamQuery($name: String!) {
             }
           }
         }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 600, quality: 100) {
-              ...GatsbyImageSharpFluid
+        editors {
+          name
+          role
+          path {
+            childImageSharp {
+              fluid(maxWidth: 600, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

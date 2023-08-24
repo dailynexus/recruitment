@@ -3,6 +3,10 @@ priority: 15
 title: "Diversity & Inclusion"
 icon: "../../images/section-logos/diversity-inclusion.png"
 image: "../../images/section-images/diversity-inclusion.jpg"
+editors:
+  - name: "Sneha Cheenath"
+    role: "Diversity, Equity & Inclusion (DEI) Chair"
+    path: "../../images/section-images/sneha_cheenath.jpg"
 contact: "diversityandinclusion@dailynexus.com"
 ---
 Hello! 

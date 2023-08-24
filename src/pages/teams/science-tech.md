@@ -3,6 +3,10 @@ priority: 4
 title: "Science & Tech"
 icon: "../../images/section-logos/science.png"
 image: "../../images/section-images/science.jpg"
+editors:
+  - name: "Emma Holm-Olsen"
+    role: "Science Editor"
+    path: "../../images/section-images/emma_holm-olsen.jpg"
 contact: "science@dailynexus.com"
 #editorial: "./science-tech-editorial.md"
 featured:

@@ -3,6 +3,10 @@ priority: 2
 title: "News"
 icon: "../../images/section-logos/news.png"
 image: "../../images/section-images/news.jpg"
+editors:
+  - name: "Sindhu Ananthavel"
+    role: "Lead News Editor"
+    path: "../../images/section-images/sindhu_ananthavel.jpg"
 contact: "news@dailynexus.com"
 #editorial: "./news-editorial.md"
 featured:

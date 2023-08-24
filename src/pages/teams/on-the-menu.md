@@ -3,6 +3,10 @@ priority: 7
 title: "On the Menu"
 icon: "../../images/section-logos/on-the-menu.png"
 image: "../../images/section-images/on-the-menu.jpg"
+editors:
+  - name: "Stephanie Gerson"
+    role: "On the Menu Editor"
+    path: "../../images/section-images/stephanie_gerson.jpg"
 contact: "onthemenu@dailynexus.com"
 #editorial: "./on-the-menu-editorial.md"
 featured:

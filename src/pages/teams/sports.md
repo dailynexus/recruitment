@@ -3,6 +3,10 @@ priority: 1
 title: "Sports"
 icon: "../../images/section-logos/sports.png"
 image: "../../images/section-images/sports.jpg"
+editors:
+  - name: "Preston Espar"
+    role: "Sports Editor"
+    path: "../../images/section-images/preston_espar.jpg"
 contact: "sports@dailynexus.com"
 #editorial: "./sports-editorial.md"
 featured:

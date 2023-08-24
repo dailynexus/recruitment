@@ -3,6 +3,10 @@ priority: 11
 title: "Art"
 icon: "../../images/section-logos/art.png"
 image: "../../images/section-images/art.jpg"
+editors:
+  - name: "Audrey Kenyon"
+    role: "Art Director"
+    path: "../../images/section-images/audrey_kenyon.jpg"
 contact: "art@dailynexus.com"
 #editorial: "./art-editorial.md"
 featured:

@@ -3,6 +3,10 @@ priority: 5
 title: "Data"
 icon: "../../images/section-logos/labyrinth.png"
 image: "../../images/section-images/data.jpg"
+editors:
+  - name: "Siddharth Chattoraj"
+    role: "Data Editor"
+    path: "../../images/section-images/siddharth_chattoraj.jpg"
 contact: "data@dailynexus.com"
 #editorial: "./data-editorial.md"
 featured:

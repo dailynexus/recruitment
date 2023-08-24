@@ -3,6 +3,10 @@ priority: 9
 title: "Video"
 icon: "../../images/section-logos/video.png"
 image: "../../images/section-images/video.jpg"
+editors:
+  - name: "Joshua Yepez Martinez"
+    role: "Video Editor"
+    path: "../../images/section-images/joshua_yepez_martinez.jpg"
 contact: "video@dailynexus.com"
 #editorial: "./video-editorial.md"
 featured:

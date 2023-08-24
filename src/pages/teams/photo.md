@@ -3,6 +3,13 @@ priority: 8
 title: "Photo"
 icon: "../../images/section-logos/photo.png"
 image: "../../images/section-images/photo.jpg"
+editors:
+  - name: "Maddy Fangio"
+    role: "Photo Editor"
+    path: "../../images/section-images/maddy_fangio.jpg"
+  - name: "Sydney Haupt"
+    role: "Photo Editor"
+    path: "../../images/section-images/syd_haupt.jpg"
 contact: "photo@dailynexus.com"
 ---
 Welcome to the photography section of the Daily Nexus!

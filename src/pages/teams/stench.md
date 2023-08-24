@@ -3,6 +3,13 @@ priority: 6
 title: "Daily Stench"
 icon: "../../images/section-logos/stench.png"
 image: "../../images/section-images/nexustentialism.jpg"
+editors:
+  - name: "Valerie Fu"
+    role: "Daily Stench Editor"
+    path: "../../images/section-images/valerie_fu.jpg"
+  - name: "Kathleen Santacruz"
+    role: "Daily Stench Editor"
+    path: "../../images/section-images/kathleen_santacruz.jpg"
 contact: "nexustentialism@dailynexus.com"
 ---
 Daily Stench is the best (and only) satirical section of the Daily Nexus. Since its launch in 2014, Daily Stench has been the voice behind some of UCSB's most renowned and controversial news pieces such as "Campus Crisis: Storke Tower Goes Flaccid,” "Rec Cen Lifeguards Upset They Might Actually Have To Do Something Now" and "Everybody on the Fourth Floor of Davidson Should Just Fuck Each Other Already.” They have been voted "most stinky" and also "sexiest feet" for over 50 consecutive years*, which are coveted awards in the Nexus office.
