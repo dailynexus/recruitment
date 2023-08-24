@@ -1,4 +1,5 @@
 Dear Reader,
+
 Welcome to the Daily Nexus, UC Santa Barbara’s award-winning student newspaper.
 The Nexus is UC Santa Barbara’s only independent, student-run newspaper. We’ve been reporting on UCSB and Isla Vista since the 1930s.
 

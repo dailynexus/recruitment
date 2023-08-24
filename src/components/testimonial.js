@@ -26,11 +26,9 @@ const TestimonialImageContainer = styled.div`
 
 const TestimonialImageWrapper = styled.div`
   width: 100%;
-  max-width: 360px;
+  max-width: 420px;
   margin: 20px;
-  padding: 20px;
   border-radius: 20px;
-  background-color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 `;
 
@@ -38,13 +36,10 @@ const photo = css`
   border-radius: 20px;
 `;
 
-const Name = styled.div`
+const TestimonialText = styled.div`
+  margin-right: 20px;
   font-size: 1.5rem;
-`;
-
-const Email = styled.a`
-  color: var(--color-primary-alt);
-  text-decoration: none;
+  max-width: 30rem; 
 `;
 
 function TestimonialImage({ node }) {
@@ -81,8 +76,9 @@ function Testimonial() {
         <TestimonialImageContainer>
           {data.allTestimonialJson.nodes.map((node) => <TestimonialImage key={node.name} node={node} />)}
         </TestimonialImageContainer>
-        <p>We do sure hope you stay!</p>
-        <p>Pricila and Olive</p>
+        <TestimonialText>
+          We do sure hope you stay!<br /><br />Pricila and Olive
+        </TestimonialText>
       </ContentContainer>
     </TestimonialWrapper>
   );

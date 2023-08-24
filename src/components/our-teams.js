@@ -77,6 +77,12 @@ const TeamsWrapper = styled.div`
   }
 `;
 
+const TeamsText = styled.div`
+  margin-right: 20px;
+  font-size: 1.5rem;
+  max-width: 1022px; 
+`;
+
 function Team({ node }) {
   let { childMarkdownRemark } = node;
   let frontmatter = childMarkdownRemark.frontmatter;
@@ -137,16 +143,16 @@ function OurTeams() {
       <TeamsWrapper>
         {teams}
       </TeamsWrapper>
-      <div>
-        <p>
-          To join, email the section you are trying to join, and they will add 
-          you to their slack channel! No experience necessary. Still hesitant 
-          to join? Read former and current staff member's decision to join. 
-          For information about orientation visit 
-          <a href="https://www.instagram.com/dailynexus">@dailynexus</a> 
-          on Instagram
-        </p>
-      </div>
+      <TeamsText>
+        To join, email the section you are trying to join, and they will add 
+        you to their slack channel! No experience necessary.<br />
+        Still hesitant to join? Read former and current staff member's 
+        decision to join. For information about orientation visit 
+        {" "}
+        <a href="https://www.instagram.com/dailynexus">@dailynexus</a> 
+        {" "}
+        on Instagram
+      </TeamsText>
     </OurTeamsWrapper>
   );
 }

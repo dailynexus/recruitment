@@ -1,6 +1,6 @@
 ---
 priority: 6
-title: "Nexustentialism"
+title: "Daily Stench"
 icon: "../../images/section-logos/stench.png"
 image: "../../images/section-images/nexustentialism.jpg"
 contact: "nexustentialism@dailynexus.com"
