@@ -24,9 +24,26 @@ const RecruitmentLogo = styled.div`
   align-items: center;
 `;
 
+const NexusLogo = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`
+
+const NexusLogoSubtext = styled.h1`
+  margin: 0;
+  font-size: 6rem;
+  color: white;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
+`
+
 const logo = css`
   width: 80vw;
-  max-width: 720px;
+  max-width: 120px;
 `;
 
 const RecruitmentLogoSubtext = styled.h2`
@@ -43,7 +60,7 @@ const RecruitmentLogoSubtext = styled.h2`
 function Header() {
   const data = useStaticQuery(graphql`
     query HeaderQuery {
-      logoFile: file(relativePath: { eq: "nexus-logo.png" }) {
+      logoFile: file(relativePath: { eq: "nexus-logo-icon.png" }) {
         childImageSharp {
           fluid(maxWidth: 720) {
             ...GatsbyImageSharpFluid
@@ -58,7 +75,11 @@ function Header() {
       <ContentContainer alignItems="center">
         <Link to="/" className={logoLink}>
           <RecruitmentLogo>
-            <Img className={logo} fluid={data.logoFile.childImageSharp.fluid} />
+            <NexusLogo>
+              <NexusLogoSubtext>Daily</NexusLogoSubtext>
+              <Img className={logo} fluid={data.logoFile.childImageSharp.fluid} />
+              <NexusLogoSubtext>Nexus</NexusLogoSubtext>
+            </NexusLogo>
             <RecruitmentLogoSubtext>Recruitment</RecruitmentLogoSubtext>
           </RecruitmentLogo>
         </Link>
