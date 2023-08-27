@@ -196,9 +196,9 @@ function Menu({ sticking }) {
             </CloseButton>
           }
           <MenuItem setMenuExpanded={setMenuExpanded} to="/#about" label="About" />
-          <MenuItem setMenuExpanded={setMenuExpanded} to="/#social" label="Socials" />
           <MenuItem setMenuExpanded={setMenuExpanded} to="/#teams" label="Teams" />
           <MenuItem setMenuExpanded={setMenuExpanded} to="/#faq" label="FAQ" />
+          <MenuItem setMenuExpanded={setMenuExpanded} to="/#social" label="Socials" />
           <MenuItem setMenuExpanded={setMenuExpanded} to="/#contact" label="Contact" />
         </MenuItemsContainer>
       </MenuContainer>
