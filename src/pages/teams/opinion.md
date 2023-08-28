@@ -18,7 +18,7 @@ featured:
     image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/05/30091112/asian-fetishization-illustration-768x576.png"
     url: "https://dailynexus.com/2021-05-30/your-gamer-girl-aesthetic-has-real-consequences/"
 ---
-**The opinion section is looking for writers for the 2020-21 school year.**
+**The opinion section is looking for writers for the 2023-24 school year.**
 
 Love hot takes and debates? Then the opinion section is the perfect place for you!
 Opinion writers cover any and every opinion on topics related to the UCSB student experience. 
