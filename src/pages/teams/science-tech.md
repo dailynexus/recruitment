@@ -10,20 +10,20 @@ editors:
 contact: "science@dailynexus.com"
 #editorial: "./science-tech-editorial.md"
 featured:
-  - title: "NASA and ESA Partner up to Launch an Oceanography Satellite from Santa Barbara County Designed to Monitor Rising Sea Levels"
-    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2020/12/07082934/image.png"
-    url: "https://dailynexus.com/2020-12-07/nasa-and-esa-partner-up-to-launch-an-oceanography-satellite-from-santa-barbara-county-designed-to-monitor-rising-sea-levels/"
-  - title: "Every Last Sun Drop: UCSB Researchers Increase Solar Cell Efficiency With Perovskite Crystals"
-    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/05/20200822/perovskite.png"
-    url: "https://dailynexus.com/2021-05-20/every-last-sun-drop-ucsb-researchers-increase-solar-cell-efficiency-with-perovskite-crystals/"
-  - title: "Following Negotiations, Environmentalists and Indigenous Activists Must Raise $20 Million in 90 Days To Protect West Mesa"
-    image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2021/03/22045852/DSC_0555.jpg"
-    url: "https://dailynexus.com/2021-03-22/following-negotiations-environmentalists-and-indigenous-activists-must-raise-20-million-in-90-days-in-push-to-protect-west-mesa/"
+  - title: "Local community members express concern over 10 new proposed aquaculture sites off of Southern California coast"
+    image: "https://i2.wp.com/dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2023/04/17102229/aquaculture-opportunity-areas-options.jpg?resize=350,200"
+    url: "https://dailynexus.com/2023-04-17/local-community-members-express-concern-over-10-new-proposed-aquaculture-sites-off-of-southern-california-coast/"
+  - title: "Simply Stated: Why does time “fly” when we’re having fun?"
+    image: "https://i2.wp.com/dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2023/08/02093400/KatyaKiseleva_TimeFlies-1.png?resize=350,200"
+    url: "https://dailynexus.com/2023-08-02/simply-stated-why-does-time-fly-when-were-having-fun/"
+  - title: "Campus Point: New and exciting research from UCSB"
+    image: "https://i2.wp.com/dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2022/05/18173934/storke.png?resize=350,200"
+    url: "https://dailynexus.com/2023-05-18/looking-back-from-campus-point/"
 ---
-**The Science & Tech section is looking for writers for the 2020-21 school year.**
+**The Science & Tech section is looking for writers for the 2023-24 school year. We will also be hiring assistant editor(s) at the start of winter quarter.**
 
-UCSB is a world-class research university with top names, and Nobel laureates, working here across many disciplines. It has been the site of countless achievements, including the creation of the now-ubiquitous atomic force microscope and efficient blue LEDs — even serving as one of the first nodes of ARPANET during the dawn of the digital era. History has been made at this school many times.
+UC Santa Barbara is known worldwide for its scientific research programs. From astrophysics to the environmental sciences, UCSB has made countless breakthroughs over the past decades, and continues every day to push the boundaries of what is possible. Our university, which Leiden University has named #2 world-wide for research impact in the sciences, is home to several Nobel laureates and is the birthplace of cutting-edge technology like the Practical Scanning Microscope and efficient blue LED lights. UCSB was also one of the very first nodes of the U.S. Advanced Research Projects Agency Network (ARPANET), a predecessor to what we now call  “the internet.”
 
-Today, UCSB researchers roam the globe, the lab and the cultural landscape in their pursuit of information. Meanwhile, a vibrant community of young students thrives on and off of campus, organizing competitions, establishing new student groups, carrying out social and environmental activism, and even participating in undergraduate research of their own.
+The Science and Tech section strives to cover all aspects of the sciences that are important and relevant to our readers; whether it is a column explaining the science behind [why our socks go missing in the wash](https://dailynexus.com/2022-05-02/simply-stated-where-did-my-other-sock-go/) or an article covering [a faculty member’s innovative vision technology](https://dailynexus.com/2023-07-07/ucsb-professor-receives-nih-directors-new-innovator-award/), the content being produced by our section is informative, accessible, and original. At a time when misinformation runs rampant in the news, and scientists often are unable to effectively share their own results with the public, science communication is more important than ever, and a valuable skill which will serve well those hoping to work in the sciences. 
 
-Science & Tech at the Daily Nexus aims to cover all of that and more, with a particular focus on research publications by scientists and academics at UCSB. Nexus reporters within this section will have opportunities to interview and communicate with people at the top of their field and learn about the science from the scientists themselves, as well as community leaders and even government officials.
+Students interested in writing for us do not require any previous experience, and will be trained in the fundamentals of science writing, journalism writing, interview techniques and more. We expect that writers maintain professionalism and a commitment to their work. At the same time, we are a vibrant and enthusiastic staff dedicated to supporting each other, and work hard to create an environment that is both fun and enriching.
