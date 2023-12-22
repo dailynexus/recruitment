@@ -26,6 +26,8 @@ featured:
     image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2023/04/24124954/MV5BMjA5NTc0NjE2N15BMl5BanBnXkFtZTcwMDQwMzU1MQ%40%40._V1_-355x230.jpg"
     url: "https://dailynexus.com/2023-04-24/the-ultimate-stoners-guide-dope-media-to-enjoy-when-youre-high/"
 ---
+**The Artsweek section is looking for reporters for the 2023-24 school year.**
+
 The Daily Nexus’s Artsweek section covers the latest in music, movies, the entertainment industry and pop culture. We review recent film and album releases, report in-person on local events, write feature articles on student artists, and more.
 
 Story grabs are given out during section meetings, which occur once a week, where writers can sign up to cover pieces on a first-come, first-served basis. Writers can pitch potential article ideas during the section meetings as well.

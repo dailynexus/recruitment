@@ -19,4 +19,6 @@ featured:
   - title: "Halloween in Isla Vista"
     url: "https://dailynexus.com/2022-10-27/halloween-in-isla-vista/"
 ---
+**The Data section is looking for reporters for the 2023-24 school year.**
+
 The Daily Nexus, UCSB’s award-winning independent, student-run newspaper since 1930, is hiring writers, coders and visual designers for the Nexus's data journalism section. We combine journalism, code and design to produce data-driven reporting coupled with infographics, informative charts and interactive visuals that involve tracking student athlete statistics, reporting on arrest statistics, displaying course grade data, analyzing social media sentiments and visualizing the story of our campus and community. No prior experience is necessary — we will help you learn any skills needed.

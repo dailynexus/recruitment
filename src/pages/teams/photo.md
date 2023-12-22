@@ -12,9 +12,11 @@ editors:
     path: "../../images/section-images/syd_haupt.jpg"
 contact: "photo@dailynexus.com"
 ---
+**The Photo section is looking for reporters for the 2023-24 school year.**
+
 Welcome to the photography section of the Daily Nexus!
  
-Our photo section is looking for photographers for the 2021-2022 school year.
+Our photo section is looking for photographers for the 2023-2024 school year.
  
 We not only see events first-hand through our lens, but we also see the diversity in our photographers who are behind these lenses. We believe that the photos we capture can translate into infinite meanings-- it's our way of storytelling. 
  

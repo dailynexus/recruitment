@@ -20,8 +20,6 @@ featured:
     title: "Isla Vista Facing Historic Housing Shortage Ahead of Fall Quarter 2021"
     url: "https://dailynexus.com/2021-08-25/isla-vista-facing-historic-housing-shortage-ahead-of-fall-quarter-2021/"
 ---
-**The news section is looking for reporters for the 2021-22 school year.**
-
 The news team is responsible for reporting on all things in and around Isla Vista, UC Santa Barbara and the greater UC system. Our coverage seeks to answer the questions that are important to these communities and provide a reliable source of the need-to-know information for students, faculty, families, business owners, leaders and more.
 
 Our goal is to provide readers with stories from a variety of perspectives and backgrounds in an effort to shed light on the UC Santa Barbara and Isla Vista community as whole. This includes features about local figures, investigations into police misconduct, explainers on topics important to the community and much, much more.

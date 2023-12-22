@@ -7,6 +7,9 @@ editors:
   - name: "Audrey Kenyon"
     role: "Art Director"
     path: "../../images/section-images/audrey_kenyon.jpg"
+  - name: "Julie Broch"
+    role: "Ass. Art Director"
+    path: "../../images/section-images/julie_broch.jpg"
 contact: "art@dailynexus.com"
 #editorial: "./art-editorial.md"
 featured:
@@ -20,4 +23,8 @@ featured:
     image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2020/09/Students_Experiences_With_Coronavirus-768x504.png"
     url: "https://dailynexus.com/2020-09-25/young-socially-hungry-and-contracting-covid-19/"
 ---
-Being a staff artist for the Daily Nexus means you get to illustrate for the various sections of the paper such as, news, opinion, sports, comics and more! Additionally, there are unlimited opportunities to create comics off your own ideas. We are looking for artists who are able to creatively highlight and translate an article into an art piece. For quality purposes, artists are encouraged to work digitally, but scanned artwork is welcome! If you are interested in being an illustrator and/or comic artist, please email art@dailynexus.com with a few sample pieces.
+**The Art section is looking for reporters for the 2023-24 school year.**
+
+Being a staff artist for the Daily Nexus means you get to illustrate for the various sections of the paper such as, News, Opinion, Sports, On the Menu and more! There are unlimited opportunities to create comics based on your own ideas, as well as independent artworks to be featured. The Daily Nexus is a great opportunity for artists to have their work published and seen by thousands of students!
+
+We are looking for artists who are able to creatively highlight and translate articles into beautiful works of art. For quality purposes, artists are encouraged to work digitally, but scanned artwork is welcome! If you are interested in being an illustrator and/or comic artist, please email [art@dailynexus.com](mailto:art@dailynexus.com) for further information!

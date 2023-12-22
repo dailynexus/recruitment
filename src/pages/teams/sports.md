@@ -7,6 +7,9 @@ editors:
   - name: "Preston Espar"
     role: "Sports Editor"
     path: "../../images/section-images/preston_espar.jpg"
+  - name: "Isaiah Ochoa"
+    role: "Sports Editor"
+    path: "../../images/section-images/isaiah_ochoa.jpg"
 contact: "sports@dailynexus.com"
 #editorial: "./sports-editorial.md"
 featured:
@@ -20,10 +23,8 @@ featured:
     image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2016/05/2016.05.26_StephenManga_Baseball-web-768x512.jpg"
     url: "https://dailynexus.com/2021-06-20/ucsb-baseball-receive-a-numerous-amount-of-end-of-the-season-awards/"
 ---
-**The sports section is looking for writers for the 2021-22 school year.**
+**The Sports section is looking for reporters for the 2023-24 school year.**
 
-The Daily Nexus sports section specializes in everything UCSB sports. As one of the only media outlets that covers Gaucho athletics, we strive for thorough, in-depth coverage of all Gaucho athletics. Because of UCSB's status as a mid-major school, our writers are able to receive media privileges such as sitting in the press box, attending press conferences and gaining access to athletes and coaches for interviews. Through previews, recaps and features, we seek to keep the UCSB community informed and engaged with UCSB athletics.
+If you're passionate about sports and know how to turn game-day excitement into captivating prose, we want you on our team at The Daily Nexus. No experience? No worries! We value enthusiasm and a love for storytelling as much as we do a killer hook. Whether you're a seasoned sports aficionado or just getting started, there's a spot for you in our lineup.
 
-However, we cover far more than just local athletics. Writers are encouraged to write about anything sports-related that they are passionate about — even if it's not directly linked to UCSB. In the past, our section has specialized in articles that analyze the intersection between sports and society. These columns can cover essentially any topic and allow writers the creative freedom to pursue any sports-oriented interest they have.
-
-Whether you're interested in UCSB athletics, professional sports or anything in between, feel free to reach out if you're interested or have any questions.
+Perks? Oh, they're as impressive as a buzzer-beating three-pointer! You'll get hands-on experience, insider access to campus sports events, and the chance to see your words light up our vibrant community. Ready to elevate your writing game? Please email us at [sports@dailynexus.com](mailto:sports@dailynexus.com), and let's score some literary touchdowns together! The Daily Nexus is not just a newspaper; it's a team, and we want you on our winning roster.
