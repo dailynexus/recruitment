@@ -7,6 +7,23 @@ module.exports = {
   },
   pathPrefix: "/interactives/recruitment",
   plugins: [
+    `gatsby-transformer-json`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: null
+            }
+          }
+        ]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,23 +52,6 @@ module.exports = {
         name: `pages`,
         path: `${__dirname}/src/pages`,
       },
-    },
-    `gatsby-transformer-json`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-external-links",
-            options: {
-              target: "_blank",
-              rel: null
-            }
-          }
-        ]
-      }
     },
     `gatsby-plugin-linaria`,
     {

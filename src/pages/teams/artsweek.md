@@ -6,10 +6,10 @@ image: "../../images/section-images/artsweek.jpg"
 editors:
   - name: "Lauren Chiou"
     role: "Artsweek Editor"
-    path: "../../images/section-images/lauren_chiou.jpg"
+    path: "../../images/section-images/Lauren_Chiou.jpg"
   - name: "Stella Mullin"
     role: "Artsweek Editor"
-    path: "../../images/section-images/stella_mullin.jpg"
+    path: "../../images/section-images/Stella_Mullin.jpg"
 contact: "artsweek@dailynexus.com"
 #editorial: "./artsweek-editorial.md"
 featured:

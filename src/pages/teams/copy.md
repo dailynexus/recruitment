@@ -5,11 +5,8 @@ icon: "../../images/section-logos/copy.png"
 image: "../../images/section-images/copy.jpg"
 editors:
   - name: "Jesse MacDonald"
-    role: "Chief Copy Editors"
-    path: "../../images/section-images/jesse_macdonald.jpg"
-  - name: "Grace Liu"
-    role: "Chief Copy Editors"
-    path: "../../images/section-images/grace_liu.jpg"
+    role: "Chief Copy Editor"
+    path: "../../images/section-images/Jesse_Macdonald.jpg"
 contact: "copy@dailynexus.com"
 ---
 The copy team reads and edits all articles at the Daily Nexus for accuracy, clarity and adherence to Associated Press style. We help make sure that all articles at the Nexus are consistent and correct to uphold the Nexus' reputation as a reliable and quality news source for the UCSB and Isla Vista communities.

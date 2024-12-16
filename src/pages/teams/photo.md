@@ -6,10 +6,7 @@ image: "../../images/section-images/photo.jpg"
 editors:
   - name: "Maddy Fangio"
     role: "Photo Editor"
-    path: "../../images/section-images/maddy_fangio.jpg"
-  - name: "Sydney Haupt"
-    role: "Photo Editor"
-    path: "../../images/section-images/syd_haupt.jpg"
+    path: "../../images/section-images/Maddy_Fangio.jpg"
 contact: "photo@dailynexus.com"
 ---
 **The Photo section is looking for reporters for the 2023-24 school year.**

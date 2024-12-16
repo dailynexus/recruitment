@@ -4,9 +4,9 @@ title: "Opinion"
 icon: "../../images/section-logos/opinion.png"
 image: "../../images/section-images/opinion.jpg"
 editors:
-  - name: "Amitha Bhat"
+  - name: "Elizabeth Lee"
     role: "Opinion Editor"
-    path: "../../images/section-images/amitha_bhat.jpg"
+    path: "../../images/section-images/Elizabeth_Lee.jpg"
 contact: "opinion@dailynexus.com"
 featured:
   - title: "A Comprehensive Guide to Big Media’s Queerbaiting Crimes"

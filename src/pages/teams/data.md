@@ -6,7 +6,10 @@ image: "../../images/section-images/data.jpg"
 editors:
   - name: "Siddharth Chattoraj"
     role: "Data Editor"
-    path: "../../images/section-images/siddharth_chattoraj.jpg"
+    path: "../../images/section-images/Siddharth_Chattoraj.jpg"
+  - name: "Lance Sanchez"
+    role: "Asst. Data Editor"
+    path: "../../images/section-images/Lance_Sanchez.jpg"
 contact: "data@dailynexus.com"
 #editorial: "./data-editorial.md"
 featured:

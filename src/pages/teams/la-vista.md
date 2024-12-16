@@ -4,9 +4,12 @@ title: "La Vista"
 icon: "../../images/section-logos/diversity-inclusion.png"
 image: "../../images/section-images/la-vista.jpg"
 editors:
-  - name: "Mari Villalpando-Ortega"
+  - name: "Erick Ruvalcaba"
     role: "La Vista Editor"
-    path: "../../images/section-images/mari_villalpando-ortega.jpg"
+    path: "../../images/section-images/nexus.jpeg"
+  - name: "Nadia Larios"
+    role: "La Vista Editor"
+    path: "../../images/section-images/Nadia_Larios.jpeg"
 contact: "lavista@dailynexus.com "
 ---
 **La Vista section is hiring for the 2023-24 school year.**

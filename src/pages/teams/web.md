@@ -4,9 +4,12 @@ title: "Web"
 icon: "../../images/section-logos/web.png"
 image: "../../images/section-images/web.jpg"
 editors:
-  - name: "Ian Wen"
+  - name: "Sanil Katula"
     role: "Web Editor"
-    path: "../../images/section-images/ian_wen.jpg"
+    path: "../../images/section-images/Sanil_Katula.jpg"
+  - name: "Cailean Fernandes"
+    role: "Asst. Web Editor"
+    path: "../../images/section-images/Cailean_Fernandes.jpg"
 contact: "web@dailynexus.com"
 ---
 **The Web section is not currently hiring.**

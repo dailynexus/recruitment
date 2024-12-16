@@ -4,9 +4,9 @@ title: "Diversity, Equity & Inclusion"
 icon: "../../images/section-logos/diversity-inclusion.png"
 image: "../../images/section-images/diversity-inclusion.jpg"
 editors:
-  - name: "Sneha Cheenath"
+  - name: "Amanda Nolan"
     role: "Diversity, Equity & Inclusion (DEI) Chair"
-    path: "../../images/section-images/sneha_cheenath.jpg"
+    path: "../../images/section-images/Amanda_Nolan.jpg"
 contact: "diversityandinclusion@dailynexus.com"
 ---
 **The DEI section is not currently hiring.**

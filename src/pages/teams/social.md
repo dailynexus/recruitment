@@ -6,7 +6,12 @@ image: "../../images/section-images/social.jpg"
 editors:
   - name: "Bridget Weingart"
     role: "Director of Social Media Strategy"
-    path: "../../images/section-images/bridget_weingart.jpg"
+    path: "../../images/section-images/Bridget_Weingart.jpg"
+  - name: "Aidan Dobbins"
+    role: "Social Media Manager"
+    path: "../../images/section-images/nexus.jpeg"
+      
+
 contact: "socialmedia@dailynexus.com"
 ---
 The social media team consists of Joshen Mantai, the Director of Social Media Strategy, and two social media managers, Jordan Chang and Ida Kazerani. Together, we work to implement social initiatives for the Daily Nexus. Jordan works on scheduling regular content to our Facebook and Twitter social media channels, and Ida works on Instagram, including numerous Instagram series we have been implementing.

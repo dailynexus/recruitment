@@ -23,7 +23,6 @@ featured:
     image: "https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2016/05/2016.05.26_StephenManga_Baseball-web-768x512.jpg"
     url: "https://dailynexus.com/2021-06-20/ucsb-baseball-receive-a-numerous-amount-of-end-of-the-season-awards/"
 ---
-**The Sports section is looking for reporters for the 2023-24 school year.**
 
 If you're passionate about sports and know how to turn game-day excitement into captivating prose, we want you on our team at The Daily Nexus. No experience? No worries! We value enthusiasm and a love for storytelling as much as we do a killer hook. Whether you're a seasoned sports aficionado or just getting started, there's a spot for you in our lineup.
 
